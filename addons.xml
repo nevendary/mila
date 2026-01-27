@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="plugin.video.mila" name="Mila" version="2.0.0" provider-name="nevendary">
+  <addon id="plugin.video.mila" name="MILA - Media Index Library Addon" version="2.0.0" provider-name="nevendary">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="plugin.video.youtube" version="7.0.2" optional="true"/>
+      <import addon="script.module.requests" version="2.18.4"/>
+      <import addon="script.module.unidecode" version="0.4.16"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+    <extension point="xbmc.python.pluginsource" library="main.py">
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">Mila Video Addon</summary>
-      <description lang="en">Mila video addon for Kodi</description>
+      <summary>Media Index Library Addon - Organized media browsing and playback</summary>
+      <description>Browse and play media files with enhanced organization. Features include API server integration, organized TV shows and movies by letters/seasons, and all original playback features.</description>
       <platform>all</platform>
-      <license>MIT</license>
+      <license>AGPL 3.0</license>
       <forum>https://github.com/nevendary/mila</forum>
-      <website>https://github.com/nevendary/mila</website>
       <source>https://github.com/nevendary/mila</source>
-      <email>your@email.com</email>
     </extension>
   </addon>
-  
-  <!-- If you want to add the repo as an installable addon itself -->
+
   <addon id="repository.mila" name="Mila Repository" version="1.0.0" provider-name="nevendary">
     <extension point="xbmc.addon.repository">
       <dir>
-        <info compressed="false">https://nevendary.github.io/mila/addons.xml</info>
-        <checksum>https://nevendary.github.io/mila/addons.xml.md5</checksum>
-        <datadir zip="true">https://nevendary.github.io/mila</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nevendary/mila/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nevendary/mila/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nevendary/mila/main/</datadir>
       </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
