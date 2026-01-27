@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="plugin.video.mila" name="Mila" version="1.0.0" provider-name="nevendary">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="plugin.video.youtube" version="7.0.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Mila Video Addon</summary>
+      <description lang="en">Mila video addon for Kodi</description>
+      <platform>all</platform>
+      <license>MIT</license>
+      <forum>https://github.com/nevendary/mila</forum>
+      <website>https://github.com/nevendary/mila</website>
+      <source>https://github.com/nevendary/mila</source>
+      <email>your@email.com</email>
+    </extension>
+  </addon>
+  
+  <!-- If you want to add the repo as an installable addon itself -->
+  <addon id="repository.mila" name="Mila Repository" version="1.0.0" provider-name="nevendary">
+    <extension point="xbmc.addon.repository">
+      <dir>
+        <info compressed="false">https://nevendary.github.io/mila/addons.xml</info>
+        <checksum>https://nevendary.github.io/mila/addons.xml.md5</checksum>
+        <datadir zip="true">https://nevendary.github.io/mila</datadir>
+      </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Mila Repository</summary>
+      <description lang="en">Repository for Mila Addons</description>
+      <platform>all</platform>
+      <license>MIT</license>
+    </extension>
+  </addon>
+</addons>
