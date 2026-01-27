@@ -16,8 +16,11 @@
     </extension>
   </addon>
   <addon id="repository.mila" name="MILA Repository" version="1.0.0" provider-name="nevendary">
+    <requires>
+      <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
     <extension point="xbmc.addon.repository" name="MILA Repository">
-      <dir minversion="19.0.0">
+      <dir>
         <info compressed="false">https://raw.githubusercontent.com/nevendary/mila/main/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nevendary/mila/main/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/nevendary/mila/main/</datadir>
