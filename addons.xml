@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
   <addon id="plugin.video.mila" name="MILA - Media Index Library Addon" version="2.0.0" provider-name="nevendary">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
@@ -11,26 +12,26 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Media Index Library Addon - Organized media browsing and playback</summary>
-      <description>Browse and play media files with enhanced organization. Features include API server integration, organized TV shows and movies by letters/seasons, and all original playback features.</description>
+      <description>Browse and play media files with enhanced organization.</description>
       <platform>all</platform>
-      <license>AGPL 3.0</license>
-      <forum>https://github.com/nevendary/mila</forum>
+      <license>AGPL-3.0</license>
       <source>https://github.com/nevendary/mila</source>
     </extension>
   </addon>
 
   <addon id="repository.mila" name="Mila Repository" version="1.0.0" provider-name="nevendary">
-  <extension point="xbmc.addon.repository">
-    <dir>
-      <info compressed="false">
-        https://nevendary.github.io/mila/addons.xml
-      </info>
-      <checksum>
-        https://nevendary.github.io/mila/addons.xml.md5
-      </checksum>
-      <datadir zip="true">
-        https://nevendary.github.io/mila/zips/
-      </datadir>
-    </dir>
-  </extension>
-</addon>
+    <extension point="xbmc.addon.repository">
+      <dir>
+        <info compressed="false">https://nevendary.github.io/mila/addons.xml</info>
+        <checksum>https://nevendary.github.io/mila/addons.xml.md5</checksum>
+        <datadir zip="true">https://nevendary.github.io/mila/zips/</datadir>
+      </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>Mila Repository</summary>
+      <description>Repository for Mila Addons</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+</addons>
