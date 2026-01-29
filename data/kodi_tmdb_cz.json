@@ -5933,6 +5933,193 @@
           "size": "1187302622"
         }
       ]
+    },
+    {
+      "id": "6a0e8419",
+      "tmdb_id": 11282,
+      "title": "Zahulíme, uvidíme",
+      "title_en": "Harold & Kumar Go to White Castle",
+      "title_cz": "Zahulíme, uvidíme",
+      "year": "2004",
+      "description": "Nerdy accountant Harold and his irrepressible friend, Kumar, get stoned watching television and find themselves utterly bewitched by a commercial for White Castle. Convinced there must be one nearby, the two set out on a late-night odyssey that takes them deep into New Jersey. Somehow, the boys manage to run afoul of rednecks, cops and even a car-stealing Neil Patrick Harris before getting anywhere near their beloved sliders.",
+      "description_cz": "Hrdiny stoprocentně nekorektní huličské komedie jsou dva naprosto rozdílní kámoši: upjatý Harold svůj život zasvětil bankovním investicím a tajnému pokukování po hezké sousedce Marii. Zato ležérní Kumar si navzdory svému talentu pro medicínu nedělá hlavu s ničím včetně toho, že by už konečně měl dospět. Na co nestačí, to okecá. Odjakživa však ty nejdůležitější věci rozhodují spolu. Co se stane, když se tihle dva rozhodnou oslavit konec pracovního týdne společně? Obyčejný hamburger od firmy White Castle se během nekonečné, divoké páteční noci mění v nedosažitelnou vidinu. Zato se oba kámoši na cestě do New Jersey a zase zpátky dostávají do neuvěřitelných problémů. Jejich putování je plné nejpodivnějších setkání a nejbláznivějších událostí",
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "rating": 6.556,
+      "vote_count": 2205,
+      "runtime": 88,
+      "poster": "https://image.tmdb.org/t/p/original/5vO7R4xYlDipTp8gzfRbWegO8eb.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/dzloVSv0FGM8fs4L5w9yV60p0PT.jpg",
+      "cast": [
+        {
+          "id": 68842,
+          "name": "John Cho",
+          "character": "Harold Lee",
+          "profile_path": "/4Lar4uy8gk78cEocq6ERPRFWt3e.jpg",
+          "order": 0
+        },
+        {
+          "id": 53493,
+          "name": "Kal Penn",
+          "character": "Kumar Patel",
+          "profile_path": "/yICM1JcxKbEpaqTUreY0yFMIc8W.jpg",
+          "order": 1
+        },
+        {
+          "id": 21124,
+          "name": "Paula Garcés",
+          "character": "Maria",
+          "profile_path": "/xSdnYmBysbtvHmEkDGrUBUC4UXs.jpg",
+          "order": 2
+        },
+        {
+          "id": 41686,
+          "name": "Neil Patrick Harris",
+          "character": "Neil Patrick Harris",
+          "profile_path": "/r2twLWLwDpKJ7JyhWsD1YsL7rJV.jpg",
+          "order": 3
+        },
+        {
+          "id": 38582,
+          "name": "David Krumholtz",
+          "character": "Seth Goldstein",
+          "profile_path": "/2vaimzfyPQVxZGHbQS5M3z3tZw0.jpg",
+          "order": 4
+        },
+        {
+          "id": 52480,
+          "name": "Eddie Kaye Thomas",
+          "character": "Rosenberg",
+          "profile_path": "/k8f8MK8KSOyLozl9pQGaSpYMbpM.jpg",
+          "order": 5
+        },
+        {
+          "id": 22227,
+          "name": "Christopher Meloni",
+          "character": "Freakshow",
+          "profile_path": "/nHlFFbRTh85vkohBBtRQjYnWEtb.jpg",
+          "order": 6
+        },
+        {
+          "id": 50463,
+          "name": "Malin Åkerman",
+          "character": "Liane",
+          "profile_path": "/q7U0YtgmqNa5oMBMzZ8JBLOKx6A.jpg",
+          "order": 7
+        },
+        {
+          "id": 10859,
+          "name": "Ryan Reynolds",
+          "character": "Male Nurse",
+          "profile_path": "/trzgptffGvAlAT6MEu01fz47cLW.jpg",
+          "order": 8
+        },
+        {
+          "id": 20753,
+          "name": "Fred Willard",
+          "character": "Dr. Willoughby",
+          "profile_path": "/AaHxpkee9nQfBpQeDyJLoPNtYR6.jpg",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "id": 56591,
+          "name": "Danny Leiner",
+          "job": "Director"
+        },
+        {
+          "id": 68844,
+          "name": "Hayden Schlossberg",
+          "job": "Screenplay"
+        },
+        {
+          "id": 68843,
+          "name": "Jon Hurwitz",
+          "job": "Screenplay"
+        }
+      ],
+      "release_date": "2004-07-02",
+      "streams": [
+        {
+          "ident": "1od1ba182b",
+          "name": "Harold & Kumar Go to White Castle 2004 Unrated (1080p Bluray x265 HEVC 10bit AAC 7.1 Tigole).mkv",
+          "size": "2570705056"
+        },
+        {
+          "ident": "tvJ30lEGEk",
+          "name": "Zahulíme, uvidíme 2004 CZ dab 1080p.mkv",
+          "size": "2139140525"
+        },
+        {
+          "ident": "bUBMYAXk4g",
+          "name": "Zahulíme, uvidíme 2004 CZ dab.mkv",
+          "size": "1508157967"
+        },
+        {
+          "ident": "tCWpGRp981",
+          "name": "Zahulíme, uvidíme 1 (2004) 1080p CZ dabing.mkv",
+          "size": "2139140525"
+        },
+        {
+          "ident": "z24hFe5BJ3",
+          "name": "Zahulíme, uvidíme 1 2004 CZ.avi",
+          "size": "1412294656"
+        },
+        {
+          "ident": "nmgs7K3w1s",
+          "name": "Zahulíme, uvidíme 1 CZ 2004.mkv",
+          "size": "2139140525"
+        },
+        {
+          "ident": "n9dh8Xf3Wp",
+          "name": "Zahulíme, uvidíme (2004).mkv",
+          "size": "2139140525"
+        },
+        {
+          "ident": "u47t8gulqq",
+          "name": "Zahulíme, uvidíme (2004).mkv",
+          "size": "2139140525"
+        },
+        {
+          "ident": "0kxcgtTlQo",
+          "name": "Zahulíme, uvidíme 1  _2004 Cz.mkv",
+          "size": "1508157967"
+        },
+        {
+          "ident": "xqCjFTGyeD",
+          "name": "Zahulíme, uvidíme (2004) By LukynNar.avi",
+          "size": "733362176"
+        },
+        {
+          "ident": "NrzYEGb979",
+          "name": "4.Zahulíme, uvidíme 1 2004 CZ.avi",
+          "size": "1412294656"
+        },
+        {
+          "ident": "5lv7N6gy6t",
+          "name": "Zahulíme, uvidíme 1 (2004) CZ.avi",
+          "size": "733362176"
+        },
+        {
+          "ident": "2Y11Mxq16x",
+          "name": "Zahulíme, uvidíme (2004.mp4",
+          "size": "198283614"
+        },
+        {
+          "ident": "mj10e30a1f",
+          "name": "Zahulíme, uvidíme 1 2004 CZ.avi",
+          "size": "1412294656"
+        }
+      ]
     }
   ],
   "tv_shows": [
@@ -24709,7 +24896,188 @@
       "title_en": "Fallout",
       "title_cz": null,
       "year": "2024",
+      "description": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+      "description_cz": "Svět, v němž budoucnost, kterou si Američané představovali na konci 40. let 20. století, exploduje v roce 2077 v důsledku jaderné války. Kouzlo Falloutu spočívá v drsné pustině v kontrastu s utopickou představou předchozí generace o lepším světě díky jaderné energii.",
+      "genres": [
+        {
+          "id": 10759,
+          "name": "Action & Adventure"
+        },
+        {
+          "id": 10765,
+          "name": "Sci-Fi & Fantasy"
+        }
+      ],
+      "rating": 8.144,
+      "vote_count": 2458,
+      "poster": "https://image.tmdb.org/t/p/original/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
+      "cast": [
+        {
+          "id": 989325,
+          "name": "Ella Purnell",
+          "character": "Lucy MacLean",
+          "profile_path": "/eIwP9hcGZtRqTUqK58HUU2ysgKB.jpg",
+          "order": 0
+        },
+        {
+          "id": 1386221,
+          "name": "Aaron Moten",
+          "character": "Maximus",
+          "profile_path": "/h2CJjnDEy2nCbCy6dWzXLmZ4p47.jpg",
+          "order": 1
+        },
+        {
+          "id": 57412,
+          "name": "Moisés Arias",
+          "character": "Norm MacLean",
+          "profile_path": "/fc7krDmEA4VkIY4KOJjpMXGdsfg.jpg",
+          "order": 2
+        },
+        {
+          "id": 1845809,
+          "name": "Frances Turner",
+          "character": "Barb Howard",
+          "profile_path": "/ik2MNJFA2CzeuGtdwrpgUJaidef.jpg",
+          "order": 3
+        },
+        {
+          "id": 6677,
+          "name": "Kyle MacLachlan",
+          "character": "Overseer Hank MacLean",
+          "profile_path": "/7gNyx8fYAUdOp2jpCEH3dyFbeV.jpg",
+          "order": 4
+        },
+        {
+          "id": 27740,
+          "name": "Walton Goggins",
+          "character": "The Ghoul / Cooper Howard",
+          "profile_path": "/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg",
+          "order": 5
+        }
+      ],
+      "crew": [
+        {
+          "id": 92499,
+          "name": "Casey O'Neill",
+          "job": "Stunt Coordinator",
+          "department": "Crew"
+        },
+        {
+          "id": 2015561,
+          "name": "Skye Wathen",
+          "job": "Producer",
+          "department": "Production"
+        },
+        {
+          "id": 2762680,
+          "name": "Michael Romano",
+          "job": "Digital Imaging Technician",
+          "department": "Camera"
+        },
+        {
+          "id": 5883656,
+          "name": "Chris Brady-Denton",
+          "job": "Story Editor",
+          "department": "Writing"
+        },
+        {
+          "id": 1747687,
+          "name": "Jay Worth",
+          "job": "Co-Executive Producer",
+          "department": "Production"
+        },
+        {
+          "id": 1237515,
+          "name": "Noreen O'Toole",
+          "job": "Co-Executive Producer",
+          "department": "Production"
+        },
+        {
+          "id": 1416512,
+          "name": "Owen Ellickson",
+          "job": "Co-Executive Producer",
+          "department": "Production"
+        },
+        {
+          "id": 1575063,
+          "name": "Dave Hill",
+          "job": "Co-Executive Producer",
+          "department": "Production"
+        },
+        {
+          "id": 77213,
+          "name": "Jane Espenson",
+          "job": "Consulting Producer",
+          "department": "Production"
+        },
+        {
+          "id": 1953638,
+          "name": "Gretel Twombly",
+          "job": "Co-Producer",
+          "department": "Production"
+        }
+      ],
+      "networks": [
+        {
+          "id": 1024,
+          "name": "Prime Video"
+        }
+      ],
+      "status": "Returning Series",
+      "type": "Scripted",
       "seasons": {
+        "2": {
+          "7": [
+            {
+              "ident": "tYaRdf8geQ",
+              "filename": "Fallout.2024.S02E07.1080p.HEVC.x265-MeGusta.mkv",
+              "size": "545449199"
+            }
+          ],
+          "4": [
+            {
+              "ident": "EvnZb6ysJ5",
+              "filename": "Fallout.2024.S02E04.720p.x264-FENiX.mkv",
+              "size": "602739614"
+            }
+          ],
+          "6": [
+            {
+              "ident": "kYfvkknvHQ",
+              "filename": "Fallout.2024.S02E06.720p.HEVC.x265-MeGusta[EZTVx.to].mkv",
+              "size": "385978742"
+            }
+          ],
+          "5": [
+            {
+              "ident": "fOpnsylYcs",
+              "filename": "Fallout.2024.S02E05.1080p.WEB.h264-ETHEL.mkv",
+              "size": "3896510591"
+            }
+          ],
+          "3": [
+            {
+              "ident": "WlX9QCcGdf",
+              "filename": "Fallout.2024.S02E03.1080p.WEB.h264-ETHEL.mkv",
+              "size": "3796063126"
+            }
+          ],
+          "2": [
+            {
+              "ident": "tIbLSdJpn8",
+              "filename": "Fallout 2024 S02E02 720p x264-FENiX[EZTVx.to].mkv",
+              "size": "731233842"
+            }
+          ],
+          "1": [
+            {
+              "ident": "uqf6DKUtI6",
+              "filename": "Fallout S02E01-08 2025 CZ dab 1080p - Inovátor.mkv",
+              "size": "4413989209"
+            }
+          ]
+        },
         "1": {
           "4": [
             {
@@ -24768,52 +25136,1895 @@
             }
           ]
         },
-        "2": {
-          "6": [
+        "11": {
+          "1": [
             {
-              "ident": "y28hnitdWb",
-              "filename": "Fallout_S02E06_Neznámý hráč.mkv",
-              "size": "1627961277"
+              "ident": "QeERFOp8v0",
+              "filename": "Živí mrtví S11E01 Acheron 1. část.mkv",
+              "size": "991017682"
             }
-          ],
+          ]
+        },
+        "4": {
           "4": [
             {
-              "ident": "IA4gK4JwHt",
-              "filename": "Fallout_S02E04_Démon z Aljašky.mkv",
-              "size": "3744411999"
+              "ident": "cwf98B2s1H",
+              "filename": "Bridgerton S04E04 An Offer From a Gentleman 2160p NF WEB-DL DDP5 1 Atmos DV H 265-FLUX.mkv",
+              "size": "9170993707"
             }
           ],
           "3": [
             {
-              "ident": "nnTYMRjqUa",
-              "filename": "Fallout S02E03 CZ Dabing.mkv",
-              "size": "2340667536"
-            }
-          ],
-          "1": [
-            {
-              "ident": "Rx8vO3hDjm",
-              "filename": "Fallout s02e01 2025 cz dabing.mp4",
-              "size": "579605841"
+              "ident": "9zVZtnlq2I",
+              "filename": "Bridgerton.S04E03.Il.campo.vicino.l.altra.strada.ITA.ENG.1080p.NF.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+              "size": "3258454965"
             }
           ],
           "2": [
             {
-              "ident": "fz8KMf0HSQ",
-              "filename": "Fallout S02E02 The Golden Rule 2160p AMZN WEB-DL DDP5 1 H 265-NTb.mkv",
-              "size": "6374118150"
+              "ident": "OgGCmGSODq",
+              "filename": "Bridgerton.S04E02.Il.tempo.pugnalato.ITA.ENG.1080p.NF.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+              "size": "3025240761"
             }
           ],
-          "5": [
+          "1": [
             {
-              "ident": "55uXko0Zew",
-              "filename": "Fallout.S02E05.The Wrangler.4K.WEBDL.RiP.CZ.mkv",
-              "size": "3189486593"
+              "ident": "hSouWz2kVp",
+              "filename": "Bridgerton.S04E01.Il.valzer.ITA.ENG.1080p.NF.WEB-DL.DDP5.1.H.264-MeM.GP.mkv",
+              "size": "2926997138"
             }
           ]
         }
       },
-      "total_seasons": 2
+      "seasons_info": [
+        {
+          "season_number": 0,
+          "name": "Specials",
+          "overview": "",
+          "episode_count": 22,
+          "poster_path": "/y7TMQf9rsHU4RcPkL5HUxio3Pry.jpg",
+          "air_date": "2024-03-26"
+        },
+        {
+          "season_number": 1,
+          "name": "Season 1",
+          "overview": "200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the incredibly complex, gleefully weird and highly violent universe waiting for them above.",
+          "episode_count": 8,
+          "poster_path": "/umhZRQwBbDRWbrvLev4cz4GZBhr.jpg",
+          "air_date": "2024-04-10"
+        },
+        {
+          "season_number": 2,
+          "name": "Season 2",
+          "overview": "What say you Ms MacLean?",
+          "episode_count": 8,
+          "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+          "air_date": "2025-12-16"
+        }
+      ],
+      "total_seasons": 2,
+      "total_episodes": 16,
+      "detailed_seasons": {
+        "1": {
+          "season_number": 1,
+          "name": "Season 1",
+          "name_cz": "",
+          "overview": "200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the incredibly complex, gleefully weird and highly violent universe waiting for them above.",
+          "overview_cz": "200 let po apokalypse se mírumilovná obyvatelka protiatomového krytu musí vydat na povrch a je šokována pustinou, která ji očekává.",
+          "air_date": "2024-04-10",
+          "poster_path": "https://image.tmdb.org/t/p/original/umhZRQwBbDRWbrvLev4cz4GZBhr.jpg",
+          "episode_count": 0,
+          "episodes": [
+            {
+              "episode_number": 1,
+              "name": "The End",
+              "name_cz": "Konec",
+              "overview": "Okey dokey...",
+              "overview_cz": "Oukí doukí…\n\n(oficiální popis z amazonu)",
+              "air_date": "2024-04-10",
+              "vote_average": 7.6,
+              "vote_count": 132,
+              "runtime": 75,
+              "still_path": "https://image.tmdb.org/t/p/original/sEQLaNLxV6zX22ESkTlbXFDROKK.jpg",
+              "crew": [
+                {
+                  "id": 527,
+                  "name": "Jonathan Nolan",
+                  "job": "Director"
+                },
+                {
+                  "id": 1612453,
+                  "name": "Geneva Robertson-Dworet",
+                  "job": "Writer"
+                },
+                {
+                  "id": 1807680,
+                  "name": "Graham Wagner",
+                  "job": "Writer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1665469,
+                  "name": "Daniel Gray Longino",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 47277,
+                  "name": "Jill Footlick",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3442455,
+                  "name": "Kristyn Macready",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 7262,
+                  "name": "Stuart Dryburgh",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 1622496,
+                  "name": "Craig Kuehne",
+                  "job": "VFX Artist"
+                },
+                {
+                  "id": 4651018,
+                  "name": "Alex Skydel",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2637717,
+                  "name": "Michael Simmons",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 92499,
+                  "name": "Casey O'Neill",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 2216355,
+                  "name": "Steve Battaglia",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 3442638,
+                  "name": "George Cuomo",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 3082297,
+                  "name": "Sandi Greenberg",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2520332,
+                  "name": "Kelsi Russell",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 4651020,
+                  "name": "Oluwakemi Faderin",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 5390,
+                  "name": "Laura Ballinger",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 2722090,
+                  "name": "Alesha Forche",
+                  "job": "Stunts"
+                },
+                {
+                  "id": 1252282,
+                  "name": "Lauren Cafrelli",
+                  "job": "Stunts"
+                },
+                {
+                  "id": 4766406,
+                  "name": "Beth Rolon",
+                  "job": "Hairstylist"
+                },
+                {
+                  "id": 2184221,
+                  "name": "Scott Geersen",
+                  "job": "Title Designer"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 6677,
+                  "name": "Kyle MacLachlan",
+                  "character": "Overseer Hank MacLean"
+                },
+                {
+                  "id": 20275,
+                  "name": "Sarita Choudhury",
+                  "character": "Lee Moldaver"
+                },
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 21136,
+                  "name": "Michael Cristofer",
+                  "character": "Elder Cleric Quintus"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                }
+              ]
+            },
+            {
+              "episode_number": 2,
+              "name": "The Target",
+              "name_cz": "Cíl",
+              "overview": "I know life can't have been easy up here...",
+              "overview_cz": "Vím, že život tady nahoře, nemohl být jednoduchý…",
+              "air_date": "2024-04-10",
+              "vote_average": 7.5,
+              "vote_count": 115,
+              "runtime": 66,
+              "still_path": "https://image.tmdb.org/t/p/original/zyEkugNM2IIlSyNWFc3sJpjaoFD.jpg",
+              "crew": [
+                {
+                  "id": 527,
+                  "name": "Jonathan Nolan",
+                  "job": "Director"
+                },
+                {
+                  "id": 1612453,
+                  "name": "Geneva Robertson-Dworet",
+                  "job": "Writer"
+                },
+                {
+                  "id": 1807680,
+                  "name": "Graham Wagner",
+                  "job": "Writer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1665469,
+                  "name": "Daniel Gray Longino",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 47277,
+                  "name": "Jill Footlick",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3442455,
+                  "name": "Kristyn Macready",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 7262,
+                  "name": "Stuart Dryburgh",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 1622496,
+                  "name": "Craig Kuehne",
+                  "job": "VFX Artist"
+                },
+                {
+                  "id": 4651018,
+                  "name": "Alex Skydel",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2637717,
+                  "name": "Michael Simmons",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 92499,
+                  "name": "Casey O'Neill",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 2216355,
+                  "name": "Steve Battaglia",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 3442638,
+                  "name": "George Cuomo",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 1278332,
+                  "name": "Thomas Sabinsky",
+                  "job": "Assistant Editor"
+                },
+                {
+                  "id": 1648671,
+                  "name": "Maggie Kaszuba",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 4651020,
+                  "name": "Oluwakemi Faderin",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 5390,
+                  "name": "Laura Ballinger",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 4499219,
+                  "name": "Amir Carr",
+                  "character": "Young Maximus"
+                },
+                {
+                  "id": 46814,
+                  "name": "Dale Dickey",
+                  "character": "Ma June"
+                },
+                {
+                  "id": 1406450,
+                  "name": "Jon Daly",
+                  "character": "Snake Oil Salesman"
+                },
+                {
+                  "id": 71889,
+                  "name": "Michael Abbott Jr.",
+                  "character": "Farmer"
+                },
+                {
+                  "id": 2850441,
+                  "name": "Edythe Jason",
+                  "character": "Barv"
+                }
+              ]
+            },
+            {
+              "episode_number": 3,
+              "name": "The Head",
+              "name_cz": "Hlava",
+              "overview": "The Wasteland's got its own Golden Rule...",
+              "overview_cz": "Pustina má svoje vlastní zlatý pravidlo...",
+              "air_date": "2024-04-10",
+              "vote_average": 7.6,
+              "vote_count": 107,
+              "runtime": 57,
+              "still_path": "https://image.tmdb.org/t/p/original/dj45nhpYWrLd3DhAewOxjdt2GuT.jpg",
+              "crew": [
+                {
+                  "id": 527,
+                  "name": "Jonathan Nolan",
+                  "job": "Director"
+                },
+                {
+                  "id": 1612453,
+                  "name": "Geneva Robertson-Dworet",
+                  "job": "Writer"
+                },
+                {
+                  "id": 1807680,
+                  "name": "Graham Wagner",
+                  "job": "Writer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1665469,
+                  "name": "Daniel Gray Longino",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 47277,
+                  "name": "Jill Footlick",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3442455,
+                  "name": "Kristyn Macready",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 7262,
+                  "name": "Stuart Dryburgh",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 1622496,
+                  "name": "Craig Kuehne",
+                  "job": "VFX Artist"
+                },
+                {
+                  "id": 1099782,
+                  "name": "Yoni Reiss",
+                  "job": "Editor"
+                },
+                {
+                  "id": 4651018,
+                  "name": "Alex Skydel",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2637717,
+                  "name": "Michael Simmons",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 92499,
+                  "name": "Casey O'Neill",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 2216355,
+                  "name": "Steve Battaglia",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 3442638,
+                  "name": "George Cuomo",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 3082297,
+                  "name": "Sandi Greenberg",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2520332,
+                  "name": "Kelsi Russell",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 1278332,
+                  "name": "Thomas Sabinsky",
+                  "job": "Assistant Editor"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 1648671,
+                  "name": "Maggie Kaszuba",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 4651020,
+                  "name": "Oluwakemi Faderin",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 5390,
+                  "name": "Laura Ballinger",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 2394115,
+                  "name": "Liam Molina",
+                  "job": "Assistant Editor"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 1845809,
+                  "name": "Frances Turner",
+                  "character": "Barb Howard"
+                },
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 1838225,
+                  "name": "Zach Cherry",
+                  "character": "Woody Thomas"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                }
+              ]
+            },
+            {
+              "episode_number": 4,
+              "name": "The Ghouls",
+              "name_cz": "Ghúlové",
+              "overview": "Death to Management.",
+              "overview_cz": "Smrt managementu!",
+              "air_date": "2024-04-10",
+              "vote_average": 7.9,
+              "vote_count": 101,
+              "runtime": 49,
+              "still_path": "https://image.tmdb.org/t/p/original/qHsYEQ8yZGomnVZT2rmpwz27r4l.jpg",
+              "crew": [
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1665469,
+                  "name": "Daniel Gray Longino",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 47277,
+                  "name": "Jill Footlick",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 4701,
+                  "name": "James W. Skotchdopole",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3442455,
+                  "name": "Kristyn Macready",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 7262,
+                  "name": "Stuart Dryburgh",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 1665469,
+                  "name": "Daniel Gray Longino",
+                  "job": "Director"
+                },
+                {
+                  "id": 1099782,
+                  "name": "Yoni Reiss",
+                  "job": "Editor"
+                },
+                {
+                  "id": 32603,
+                  "name": "Teodoro Maniaci",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1291827,
+                  "name": "Kieran Fitzgerald",
+                  "job": "Writer"
+                },
+                {
+                  "id": 4651018,
+                  "name": "Alex Skydel",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2637717,
+                  "name": "Michael Simmons",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 92499,
+                  "name": "Casey O'Neill",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 2216355,
+                  "name": "Steve Battaglia",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 3082297,
+                  "name": "Sandi Greenberg",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 2585288,
+                  "name": "Jake Bender",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651050,
+                  "name": "Niko Panousopoulos",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651020,
+                  "name": "Oluwakemi Faderin",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 5390,
+                  "name": "Laura Ballinger",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 4519063,
+                  "name": "Jes Norris",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2968228,
+                  "name": "Vanessa Hoffman",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 2585289,
+                  "name": "Zach Dunn",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1838225,
+                  "name": "Zach Cherry",
+                  "character": "Woody Thomas"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                },
+                {
+                  "id": 2146538,
+                  "name": "Dave Register",
+                  "character": "Chet"
+                },
+                {
+                  "id": 1354246,
+                  "name": "Rodrigo Luzzi",
+                  "character": "Reg McPhee"
+                }
+              ]
+            },
+            {
+              "episode_number": 5,
+              "name": "The Past",
+              "name_cz": "Minulost",
+              "overview": "Everyone wants to save the world...",
+              "overview_cz": "Všichni chtějí zachránit svět...",
+              "air_date": "2024-04-10",
+              "vote_average": 7.6,
+              "vote_count": 100,
+              "runtime": 46,
+              "still_path": "https://image.tmdb.org/t/p/original/ejEsUIXRMpfHwnmQK8DW1RW5oKR.jpg",
+              "crew": [
+                {
+                  "id": 2288289,
+                  "name": "Kate Kelly",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3174988,
+                  "name": "Brian Kenyon",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 4675019,
+                  "name": "Hilary Smith",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1796097,
+                  "name": "Matt Lake",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 62776,
+                  "name": "Alejandro Martínez",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1817788,
+                  "name": "Micah Gardner",
+                  "job": "Editor"
+                },
+                {
+                  "id": 51600,
+                  "name": "Clare Kilner",
+                  "job": "Director"
+                },
+                {
+                  "id": 1122300,
+                  "name": "Carson D. Mell",
+                  "job": "Writer"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 2585288,
+                  "name": "Jake Bender",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651050,
+                  "name": "Niko Panousopoulos",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 2932477,
+                  "name": "Samuel D. Hunter",
+                  "job": "Consulting Producer"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 4519063,
+                  "name": "Jes Norris",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2585289,
+                  "name": "Zach Dunn",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 1838225,
+                  "name": "Zach Cherry",
+                  "character": "Woody Thomas"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                },
+                {
+                  "id": 2146538,
+                  "name": "Dave Register",
+                  "character": "Chet"
+                }
+              ]
+            },
+            {
+              "episode_number": 6,
+              "name": "The Trap",
+              "name_cz": "Past",
+              "overview": "What happens when the ranchers have more power than the Sheriff?",
+              "overview_cz": "Co se stane, když mají farmáři víc moci než šerif?",
+              "air_date": "2024-04-10",
+              "vote_average": 7.8,
+              "vote_count": 100,
+              "runtime": 61,
+              "still_path": "https://image.tmdb.org/t/p/original/mMCP2P16l77niZRKSSI1jBE3Pxg.jpg",
+              "crew": [
+                {
+                  "id": 2288289,
+                  "name": "Kate Kelly",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1996623,
+                  "name": "Marcos Gonzalez Palma",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 4675019,
+                  "name": "Hilary Smith",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 2155258,
+                  "name": "Natasha Rivera",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 1598599,
+                  "name": "Daniel Raj Koobir",
+                  "job": "Editor"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 32603,
+                  "name": "Teodoro Maniaci",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Director"
+                },
+                {
+                  "id": 1229794,
+                  "name": "Karey Dornetto",
+                  "job": "Writer"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 2585288,
+                  "name": "Jake Bender",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651050,
+                  "name": "Niko Panousopoulos",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 2932477,
+                  "name": "Samuel D. Hunter",
+                  "job": "Consulting Producer"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 2585289,
+                  "name": "Zach Dunn",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 1845809,
+                  "name": "Frances Turner",
+                  "character": "Barb Howard"
+                },
+                {
+                  "id": 20275,
+                  "name": "Sarita Choudhury",
+                  "character": "Lee Moldaver"
+                },
+                {
+                  "id": 4646515,
+                  "name": "Teagan Meredith",
+                  "character": "Janey Howard"
+                },
+                {
+                  "id": 1651992,
+                  "name": "Logan Crawford",
+                  "character": "News Anchor"
+                },
+                {
+                  "id": 6183,
+                  "name": "Michael Esper",
+                  "character": "Bud Askins"
+                }
+              ]
+            },
+            {
+              "episode_number": 7,
+              "name": "The Radio",
+              "name_cz": "Radio",
+              "overview": "Every generation has their own dumbass ideas...",
+              "overview_cz": "Každá generace má svoje vlastní pitomý nápady…",
+              "air_date": "2024-04-10",
+              "vote_average": 7.8,
+              "vote_count": 102,
+              "runtime": 62,
+              "still_path": "https://image.tmdb.org/t/p/original/qLXHRb2131kGo2AeTgegLI1BU3g.jpg",
+              "crew": [
+                {
+                  "id": 1648671,
+                  "name": "Maggie Kaszuba",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 2288289,
+                  "name": "Kate Kelly",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 3174988,
+                  "name": "Brian Kenyon",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 4675019,
+                  "name": "Hilary Smith",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 62776,
+                  "name": "Alejandro Martínez",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1817788,
+                  "name": "Micah Gardner",
+                  "job": "Editor"
+                },
+                {
+                  "id": 51600,
+                  "name": "Clare Kilner",
+                  "job": "Director"
+                },
+                {
+                  "id": 32603,
+                  "name": "Teodoro Maniaci",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Director"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 4646503,
+                  "name": "Chaz Hawkins",
+                  "job": "Writer"
+                },
+                {
+                  "id": 2585288,
+                  "name": "Jake Bender",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651050,
+                  "name": "Niko Panousopoulos",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 2932477,
+                  "name": "Samuel D. Hunter",
+                  "job": "Consulting Producer"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 4651019,
+                  "name": "Kseniya Crespo",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 4519063,
+                  "name": "Jes Norris",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 2585289,
+                  "name": "Zach Dunn",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 1845809,
+                  "name": "Frances Turner",
+                  "character": "Barb Howard"
+                },
+                {
+                  "id": 20275,
+                  "name": "Sarita Choudhury",
+                  "character": "Lee Moldaver"
+                },
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 1838225,
+                  "name": "Zach Cherry",
+                  "character": "Woody Thomas"
+                }
+              ]
+            },
+            {
+              "episode_number": 8,
+              "name": "The Beginning",
+              "name_cz": "Začátek",
+              "overview": "War...",
+              "overview_cz": "Válka…",
+              "air_date": "2024-04-10",
+              "vote_average": 7.9,
+              "vote_count": 109,
+              "runtime": 63,
+              "still_path": "https://image.tmdb.org/t/p/original/qChsq0i2LBQNd7v3T16T6PXhzH7.jpg",
+              "crew": [
+                {
+                  "id": 1648671,
+                  "name": "Maggie Kaszuba",
+                  "job": "Second Second Assistant Director"
+                },
+                {
+                  "id": 2288289,
+                  "name": "Kate Kelly",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 1996623,
+                  "name": "Marcos Gonzalez Palma",
+                  "job": "First Assistant Director"
+                },
+                {
+                  "id": 959494,
+                  "name": "Dan Stoloff",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 4675019,
+                  "name": "Hilary Smith",
+                  "job": "Unit Production Manager"
+                },
+                {
+                  "id": 2155258,
+                  "name": "Natasha Rivera",
+                  "job": "Second Assistant Director"
+                },
+                {
+                  "id": 1598599,
+                  "name": "Daniel Raj Koobir",
+                  "job": "Editor"
+                },
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 2047129,
+                  "name": "Dan Caplan",
+                  "job": "Storyboard Artist"
+                },
+                {
+                  "id": 1420295,
+                  "name": "Wayne Che Yip",
+                  "job": "Director"
+                },
+                {
+                  "id": 17950,
+                  "name": "Chris Shriver",
+                  "job": "Supervising Art Director"
+                },
+                {
+                  "id": 2749939,
+                  "name": "Angelica Borrero-Fortier",
+                  "job": "Art Direction"
+                },
+                {
+                  "id": 2585288,
+                  "name": "Jake Bender",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651050,
+                  "name": "Niko Panousopoulos",
+                  "job": "Assistant Director Trainee"
+                },
+                {
+                  "id": 2015561,
+                  "name": "Skye Wathen",
+                  "job": "Producer"
+                },
+                {
+                  "id": 2301155,
+                  "name": "Gursimran Sandhu",
+                  "job": "Writer"
+                },
+                {
+                  "id": 2932477,
+                  "name": "Samuel D. Hunter",
+                  "job": "Consulting Producer"
+                },
+                {
+                  "id": 1544395,
+                  "name": "Mark Fichera",
+                  "job": "Stunt Coordinator"
+                },
+                {
+                  "id": 2585289,
+                  "name": "Zach Dunn",
+                  "job": "Producer"
+                },
+                {
+                  "id": 4651032,
+                  "name": "Veronica Grant",
+                  "job": "Second Assistant Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 1845809,
+                  "name": "Frances Turner",
+                  "character": "Barb Howard"
+                },
+                {
+                  "id": 6677,
+                  "name": "Kyle MacLachlan",
+                  "character": "Overseer Hank MacLean"
+                },
+                {
+                  "id": 20275,
+                  "name": "Sarita Choudhury",
+                  "character": "Lee Moldaver"
+                },
+                {
+                  "id": 21136,
+                  "name": "Michael Cristofer",
+                  "character": "Elder Cleric Quintus"
+                },
+                {
+                  "id": 1422337,
+                  "name": "Brendan Burke",
+                  "character": "Officer Shortsight"
+                }
+              ]
+            }
+          ]
+        },
+        "2": {
+          "season_number": 2,
+          "name": "Season 2",
+          "name_cz": "",
+          "overview": "What say you Ms MacLean?",
+          "overview_cz": "Co říkáte, paní Macleanová?",
+          "air_date": "2025-12-16",
+          "poster_path": "https://image.tmdb.org/t/p/original/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+          "episode_count": 0,
+          "episodes": [
+            {
+              "episode_number": 1,
+              "name": "The Innovator",
+              "name_cz": "Inovátor",
+              "overview": "Every dollar spent is a vote cast.",
+              "overview_cz": "Každý utracený dolar je odevzdaný hlas.",
+              "air_date": "2025-12-16",
+              "vote_average": 6.5,
+              "vote_count": 61,
+              "runtime": 63,
+              "still_path": "https://image.tmdb.org/t/p/original/xIZc1LHmi7VyD5eGowSyoPQ9Vk0.jpg",
+              "crew": [
+                {
+                  "id": 1612453,
+                  "name": "Geneva Robertson-Dworet",
+                  "job": "Writer"
+                },
+                {
+                  "id": 1807680,
+                  "name": "Graham Wagner",
+                  "job": "Writer"
+                },
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Director"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1171528,
+                  "name": "Jonathan Freeman",
+                  "job": "Director of Photography"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                },
+                {
+                  "id": 2146538,
+                  "name": "Dave Register",
+                  "character": "Chet"
+                },
+                {
+                  "id": 1354246,
+                  "name": "Rodrigo Luzzi",
+                  "character": "Reg McPhee"
+                },
+                {
+                  "id": 2244442,
+                  "name": "Leer Leary",
+                  "character": "Davey"
+                }
+              ]
+            },
+            {
+              "episode_number": 2,
+              "name": "The Golden Rule",
+              "name_cz": "Zlaté pravidlo",
+              "overview": "You can't put a price on family…",
+              "overview_cz": "Rodina se nedá vyčíslit...",
+              "air_date": "2025-12-24",
+              "vote_average": 6.3,
+              "vote_count": 55,
+              "runtime": 59,
+              "still_path": "https://image.tmdb.org/t/p/original/2MKhB6deuwB49g2AedFZqcy2qY8.jpg",
+              "crew": [
+                {
+                  "id": 1817788,
+                  "name": "Micah Gardner",
+                  "job": "Editor"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Director"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Executive Producer"
+                },
+                {
+                  "id": 1171528,
+                  "name": "Jonathan Freeman",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 5883656,
+                  "name": "Chris Brady-Denton",
+                  "job": "Writer"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 21136,
+                  "name": "Michael Cristofer",
+                  "character": "Elder Cleric Quintus"
+                },
+                {
+                  "id": 4499219,
+                  "name": "Amir Carr",
+                  "character": "Young Maximus"
+                },
+                {
+                  "id": 3304729,
+                  "name": "Xelia Mendes-Jones",
+                  "character": "Dane"
+                },
+                {
+                  "id": 466505,
+                  "name": "Kumail Nanjiani",
+                  "character": "Xander Harkness"
+                },
+                {
+                  "id": 1241330,
+                  "name": "Bashir Salahuddin",
+                  "character": "Joseph"
+                }
+              ]
+            },
+            {
+              "episode_number": 3,
+              "name": "The Profligate",
+              "name_cz": "Zhýralkyně",
+              "overview": "Most kids are dead by this age.",
+              "overview_cz": "Běžný dítě se tohohle věku nedožije.",
+              "air_date": "2025-12-31",
+              "vote_average": 6.5,
+              "vote_count": 54,
+              "runtime": 55,
+              "still_path": "https://image.tmdb.org/t/p/original/4fHJc12XrWko4rcgJHXmmwo8NdA.jpg",
+              "crew": [
+                {
+                  "id": 1099782,
+                  "name": "Yoni Reiss",
+                  "job": "Editor"
+                },
+                {
+                  "id": 4646503,
+                  "name": "Chaz Hawkins",
+                  "job": "Writer"
+                },
+                {
+                  "id": 60024,
+                  "name": "Liz Friedlander",
+                  "job": "Director"
+                },
+                {
+                  "id": 1168763,
+                  "name": "John Conroy",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Co-Executive Producer"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 21136,
+                  "name": "Michael Cristofer",
+                  "character": "Elder Cleric Quintus"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 1200335,
+                  "name": "Dallas Goldtooth",
+                  "character": "Charles Whiteknife"
+                },
+                {
+                  "id": 15009,
+                  "name": "Justin Theroux",
+                  "character": "Robert House"
+                },
+                {
+                  "id": 466505,
+                  "name": "Kumail Nanjiani",
+                  "character": "Xander Harkness"
+                }
+              ]
+            },
+            {
+              "episode_number": 4,
+              "name": "The Demon in the Snow",
+              "name_cz": "Démon z Aljašky",
+              "overview": "Rock to spear and so on...",
+              "overview_cz": "Pokrok nezastavíš.",
+              "air_date": "2026-01-07",
+              "vote_average": 6.7,
+              "vote_count": 50,
+              "runtime": 49,
+              "still_path": "https://image.tmdb.org/t/p/original/yI9h2HLv3kzxgnwP52w00fdWPnm.jpg",
+              "crew": [
+                {
+                  "id": 4646490,
+                  "name": "Ali Comperchio",
+                  "job": "Editor"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 166461,
+                  "name": "Stephen Williams",
+                  "job": "Director"
+                },
+                {
+                  "id": 77213,
+                  "name": "Jane Espenson",
+                  "job": "Writer"
+                },
+                {
+                  "id": 21222,
+                  "name": "David Franco",
+                  "job": "Director of Photography"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 21136,
+                  "name": "Michael Cristofer",
+                  "character": "Elder Cleric Quintus"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 1838225,
+                  "name": "Zach Cherry",
+                  "character": "Woody Thomas"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                }
+              ]
+            },
+            {
+              "episode_number": 5,
+              "name": "The Wrangler",
+              "name_cz": "Kasino Wrangler",
+              "overview": "Big Whoop.",
+              "overview_cz": "A dyť je to putna.",
+              "air_date": "2026-01-14",
+              "vote_average": 6.6,
+              "vote_count": 42,
+              "runtime": 57,
+              "still_path": "https://image.tmdb.org/t/p/original/cwElM4EifF4cUMnuZQrD8f2JniG.jpg",
+              "crew": [
+                {
+                  "id": 1817788,
+                  "name": "Micah Gardner",
+                  "job": "Editor"
+                },
+                {
+                  "id": 60024,
+                  "name": "Liz Friedlander",
+                  "job": "Director"
+                },
+                {
+                  "id": 1168763,
+                  "name": "John Conroy",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 1416512,
+                  "name": "Owen Ellickson",
+                  "job": "Writer"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 46814,
+                  "name": "Dale Dickey",
+                  "character": "Ma June"
+                },
+                {
+                  "id": 1406450,
+                  "name": "Jon Daly",
+                  "character": "Snake Oil Salesman"
+                },
+                {
+                  "id": 2850441,
+                  "name": "Edythe Jason",
+                  "character": "Barv"
+                },
+                {
+                  "id": 20275,
+                  "name": "Sarita Choudhury",
+                  "character": "Kate Williams / Lee Moldaver"
+                },
+                {
+                  "id": 15009,
+                  "name": "Justin Theroux",
+                  "character": "Robert House"
+                }
+              ]
+            },
+            {
+              "episode_number": 6,
+              "name": "The Other Player",
+              "name_cz": "Neznámý hráč",
+              "overview": "I remember good people.",
+              "overview_cz": "Pamatuju si dobrý lidi.",
+              "air_date": "2026-01-21",
+              "vote_average": 6.583,
+              "vote_count": 30,
+              "runtime": 52,
+              "still_path": "https://image.tmdb.org/t/p/original/vR8z5njtonV7qKdA16fcymfetGE.jpg",
+              "crew": [
+                {
+                  "id": 1099782,
+                  "name": "Yoni Reiss",
+                  "job": "Editor"
+                },
+                {
+                  "id": 1168763,
+                  "name": "John Conroy",
+                  "job": "Director of Photography"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Co-Executive Producer"
+                },
+                {
+                  "id": 1497967,
+                  "name": "Lisa Joy",
+                  "job": "Director"
+                },
+                {
+                  "id": 1575063,
+                  "name": "Dave Hill",
+                  "job": "Writer"
+                },
+                {
+                  "id": 21222,
+                  "name": "David Franco",
+                  "job": "Director of Photography"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 2146538,
+                  "name": "Dave Register",
+                  "character": "Chet"
+                },
+                {
+                  "id": 1354246,
+                  "name": "Rodrigo Luzzi",
+                  "character": "Reg McPhee"
+                },
+                {
+                  "id": 2244442,
+                  "name": "Leer Leary",
+                  "character": "Davey"
+                }
+              ]
+            },
+            {
+              "episode_number": 7,
+              "name": "The Handoff",
+              "name_cz": "Předání",
+              "overview": "You always end up back where you started.",
+              "overview_cz": "Vždycky skončíš, kde jsi začal, co?",
+              "air_date": "2026-01-27",
+              "vote_average": 7.824,
+              "vote_count": 17,
+              "runtime": 51,
+              "still_path": "https://image.tmdb.org/t/p/original/nit23F8xGq0HPXDdaW3KC4z6SHQ.jpg",
+              "crew": [
+                {
+                  "id": 1291827,
+                  "name": "Kieran Fitzgerald",
+                  "job": "Writer"
+                },
+                {
+                  "id": 166461,
+                  "name": "Stephen Williams",
+                  "job": "Director"
+                }
+              ],
+              "guest_stars": [
+                {
+                  "id": 122750,
+                  "name": "Leslie Uggams",
+                  "character": "Betty Pearson"
+                },
+                {
+                  "id": 1060081,
+                  "name": "Johnny Pemberton",
+                  "character": "Thaddeus"
+                },
+                {
+                  "id": 2735594,
+                  "name": "Annabel O'Hagan",
+                  "character": "Stephanie Harper"
+                },
+                {
+                  "id": 2146538,
+                  "name": "Dave Register",
+                  "character": "Chet"
+                },
+                {
+                  "id": 2244442,
+                  "name": "Leer Leary",
+                  "character": "Davey"
+                }
+              ]
+            },
+            {
+              "episode_number": 8,
+              "name": "The Strip",
+              "name_cz": "",
+              "overview": "",
+              "overview_cz": "",
+              "air_date": "2026-02-03",
+              "vote_average": 0.0,
+              "vote_count": 0,
+              "runtime": null,
+              "still_path": "",
+              "crew": [
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Director"
+                },
+                {
+                  "id": 1215672,
+                  "name": "Frederick E. O. Toye",
+                  "job": "Executive Producer"
+                }
+              ],
+              "guest_stars": []
+            }
+          ]
+        }
+      }
     },
     {
       "id": "e7ee0af5",
@@ -32007,10 +34218,10 @@
   ],
   "stats": {
     "tv_shows_count": 16,
-    "movies_count": 37,
-    "total_episodes": 1109,
-    "total_movie_files": 609,
-    "last_updated": "2026-01-27T14:41:59.233502"
+    "movies_count": 38,
+    "total_episodes": 1115,
+    "total_movie_files": 623,
+    "last_updated": "2026-01-29T23:26:29.874596"
   },
-  "last_updated": "2026-01-27T14:41:59.233515"
+  "last_updated": "2026-01-29T23:26:29.874610"
 }

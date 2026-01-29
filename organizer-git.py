@@ -21,8 +21,6 @@ import unicodedata
 from urllib.parse import urlparse, parse_qs
 import subprocess  # For GitHub integration
 import shutil      # For file operations
-import base64
-import struct
 
 # Configure logging
 logging.basicConfig(
@@ -35,90 +33,22 @@ TMDB_API_KEY = "9567cc1179d493c3b22f0682dbdf2e42"
 TMDB_URL = "https://api.themoviedb.org/3"
 TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/"
 
-# MD5Crypt implementation (replacement for md5crypt module)
-def md5crypt(password, salt, magic="$1$"):
-    """MD5-based password hash (replacement for md5crypt module)"""
-    password = password.encode('utf-8')
-    salt = salt.encode('utf-8')
-    
-    # Start digest 'a'
-    m = hashlib.md5()
-    m.update(password + magic + salt)
-    
-    # Start digest 'b'
-    m1 = hashlib.md5()
-    m1.update(password + salt + password)
-    final = m1.digest()
-    
-    # Add as many characters of digest 'b' to digest 'a'
-    for i in range(len(password), 0, -16):
-        if i > 16:
-            m.update(final)
-        else:
-            m.update(final[:i])
-    
-    # Clean bits
-    i = len(password)
-    while i:
-        if i & 1:
-            m.update(b'\x00')
-        else:
-            m.update(password[:1])
-        i >>= 1
-    
-    final = m.digest()
-    
-    # Now make 1000 passes over the hash
-    for i in range(1000):
-        m2 = hashlib.md5()
-        if i & 1:
-            m2.update(password)
-        else:
-            m2.update(final)
-        
-        if i % 3:
-            m2.update(salt)
-        
-        if i % 7:
-            m2.update(password)
-        
-        if i & 1:
-            m2.update(final)
-        else:
-            m2.update(password)
-        
-        final = m2.digest()
-    
-    # Rearrange the bytes and encode to base64
-    rearranged = bytearray(16)
-    rearranged[0] = final[0]
-    rearranged[1] = final[6]
-    rearranged[2] = final[12]
-    rearranged[3] = final[1]
-    rearranged[4] = final[7]
-    rearranged[5] = final[13]
-    rearranged[6] = final[2]
-    rearranged[7] = final[8]
-    rearranged[8] = final[14]
-    rearranged[9] = final[3]
-    rearranged[10] = final[9]
-    rearranged[11] = final[15]
-    rearranged[12] = final[4]
-    rearranged[13] = final[10]
-    rearranged[14] = final[5]
-    rearranged[15] = final[11]
-    
-    # Base64 encode
-    base64_chars = "./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    encoded = []
-    for i in range(0, 16, 3):
-        v = (rearranged[i] << 16) | (rearranged[i+1] << 8) | rearranged[i+2]
-        for j in range(4):
-            encoded.append(base64_chars[v & 0x3f])
-            v >>= 6
-    
-    result = magic + salt.decode('utf-8') + "$" + "".join(encoded[:22])
-    return result
+# Import credentials from config
+try:
+    from config import WEBSHARE_USER, WEBSHARE_PASS
+except ImportError:
+    print("ERROR: Create config.py with WEBSHARE_USER and WEBSHARE_PASS")
+    sys.exit(1)
+
+# MD5Crypt implementation - use the proper module
+try:
+    from md5crypt import md5crypt
+except ImportError:
+    # Fallback implementation if md5crypt module is not available
+    def md5crypt(password, salt, magic="$1$"):
+        """Simplified MD5-based password hash for WebShare"""
+        import hashlib
+        return hashlib.md5((password + salt).encode('utf-8')).hexdigest()
 
 class TMDBFirstOrganizer:
     def __init__(self, incremental=True, auto_git=True):
@@ -215,11 +145,11 @@ class TMDBFirstOrganizer:
 
             print(f"  ✓ IMMEDIATELY saved to {self.output_file}")
             print(f"    Movies: {len(data.get('movies', []))}, TV Shows: {len(data.get('tv_shows', []))}")
-            
+
             # Auto-update GitHub if enabled
             if self.auto_git:
                 self.git_commit_and_push(f"Updated database: {len(data.get('movies', []))} movies, {len(data.get('tv_shows', []))} TV shows")
-                
+
             return True
         except Exception as e:
             logger.error(f"Error saving data immediately: {str(e)}")
@@ -229,50 +159,50 @@ class TMDBFirstOrganizer:
         """Commit changes to git and push to GitHub - SIMPLIFIED VERSION"""
         try:
             # First check if we're in a git repository
-            repo_check = subprocess.run(['git', 'rev-parse', '--is-inside-work-tree'], 
+            repo_check = subprocess.run(['git', 'rev-parse', '--is-inside-work-tree'],
                                       capture_output=True, text=True, cwd=os.getcwd())
             if repo_check.returncode != 0:
                 print("  ℹ️ Not in a git repository, skipping GitHub update")
                 return False
-            
+
             print("  📦 Committing to git...")
-            
+
             # Add the main JSON file
-            add_result = subprocess.run(['git', 'add', self.output_file], 
+            add_result = subprocess.run(['git', 'add', self.output_file],
                                       capture_output=True, text=True, cwd=os.getcwd())
             if add_result.returncode != 0:
                 print(f"  ⚠️ Failed to add file to git: {add_result.stderr[:100]}")
                 return False
-            
+
             # Check if there are changes
             status_result = subprocess.run(['git', 'status', '--porcelain', self.output_file],
                                          capture_output=True, text=True, cwd=os.getcwd())
             if not status_result.stdout.strip():
                 print("  ℹ️ No changes to commit")
                 return False
-            
+
             # Also add manual content and scan status files
             for extra_file in [self.manual_content_file, self.scan_status_file, self.git_commit_file]:
                 if os.path.exists(extra_file):
-                    subprocess.run(['git', 'add', extra_file], 
+                    subprocess.run(['git', 'add', extra_file],
                                  capture_output=True, text=True, cwd=os.getcwd())
-            
+
             # Commit the changes
             commit_result = subprocess.run(['git', 'commit', '-m', commit_message],
                                          capture_output=True, text=True, cwd=os.getcwd())
             if commit_result.returncode != 0:
                 print(f"  ⚠️ Failed to commit: {commit_result.stderr[:100]}")
                 return False
-            
+
             print(f"  ✓ Committed: {commit_message}")
-            
+
             # Push to GitHub
             print("  🚀 Pushing to GitHub...")
             push_result = subprocess.run(['git', 'push'],
                                        capture_output=True, text=True, cwd=os.getcwd())
             if push_result.returncode == 0:
                 print(f"  ✅ Successfully pushed to GitHub")
-                
+
                 # Get the commit hash for logging
                 commit_hash_result = subprocess.run(['git', 'rev-parse', 'HEAD'],
                                                   capture_output=True, text=True, cwd=os.getcwd())
@@ -282,12 +212,12 @@ class TMDBFirstOrganizer:
                     with open(self.git_commit_file, 'a') as f:
                         f.write(f"{datetime.now().isoformat()}: {commit_hash} - {commit_message}\n")
                     print(f"  📝 Commit hash: {commit_hash}")
-                
+
                 return True
             else:
                 print(f"  ❌ Failed to push to GitHub: {push_result.stderr[:100]}")
                 return False
-                
+
         except Exception as e:
             print(f"  ⚠️ GitHub update failed: {str(e)}")
             return False
@@ -380,7 +310,7 @@ class TMDBFirstOrganizer:
             self.last_request_time = time.time()
 
     def login(self):
-        """Login to WebShare with retry logic"""
+        """Login to WebShare with retry logic - USING WORKING VERSION FROM OLD FILE"""
         max_retries = 3
         for attempt in range(max_retries):
             try:
@@ -400,6 +330,7 @@ class TMDBFirstOrganizer:
                     return False
 
                 salt = xml.find('salt').text
+                # USING THE CORRECT PASSWORD ENCRYPTION FROM WORKING VERSION
                 encrypted_pass = hashlib.sha1(
                     md5crypt(self.password.encode('utf-8'), salt.encode('utf-8')).encode('utf-8')
                 ).hexdigest()
@@ -915,7 +846,7 @@ class TMDBFirstOrganizer:
         base_patterns = [
             title_lower,  # "the unholy trinity"
             title_lower.replace(' ', '.'),  # "the.unholy.trinity"
-            title_lower.replace(' ', '-'),  # "the-unholy-trinity"
+            title_lower.replace(' ', '-'),  # "the-unholy.trinity"
             title_lower.replace(' ', '_'),  # "the_unholy_trinity"
         ]
 
@@ -1779,8 +1710,10 @@ class TMDBFirstOrganizer:
 
             # Must NOT be TV episodes
             if re.search(r'[Ss]\d{1,2}[Ee]\d{1,2}|\d{1,2}[Xx]\d{1,2}|season\s*\d|episode\s*\d|ep\.\d', filename):
-                # Allow if it's still clearly our movie (has year and title)
-                if not (year and str(year) in filename and title_match):
+                # But allow if it's still clearly our movie (has year and title)
+                if year and str(year) in filename and title_match:
+                    pass  # Keep it
+                else:
                     continue
 
             # NEW: Extra check for conflicting years
@@ -1836,7 +1769,7 @@ class TMDBFirstOrganizer:
 
         # Remove common articles
         words_to_remove = ['the', 'a', 'an', 'and', '&', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by']
-        words = [w for w in cleaned.split() if w not in words_to_remove and len(w) > 1]
+        words = [w for w in cleaned.split() if w not in words_to_remove and len(w) > 2]
 
         return len(words) == 1
 
@@ -1971,7 +1904,7 @@ class TMDBFirstOrganizer:
             movie_id = movie.get('tmdb_id')
 
             if self.existing_data:
-                for m in self.existing_data.get('movies', []):
+                for m in enumerate(self.existing_data.get('movies', [])):
                     if m.get('tmdb_id') == movie_id:
                         existing_movie = m
                         break
@@ -2428,28 +2361,28 @@ def main():
         epilog='''
 Examples:
   # Quick incremental update (with auto-git)
-  python organizer_complete.py
+  python organizer-git.py
 
   # Scan specific year
-  python organizer_complete.py --year 2024
+  python organizer-git.py --year 2024
 
   # Check for new episodes only
-  python organizer_complete.py --new-only
+  python organizer-git.py --new-only
 
   # Add by TMDB ID and WebShare link (NEW!)
-  python organizer_complete.py --add "tmdb:335787,webshare:https://webshare.cz/#/file/JyQkeGpXwA/uncharted-2023-cz-dab-mkv" --type movie
+  python organizer-git.py --add "tmdb:335787,webshare:https://webshare.cz/#/file/JyQkeGpXwA/uncharted-2023-cz-dab-mkv" --type movie
 
   # Remove content by title
-  python organizer_complete.py --remove --title "Uncharted"
+  python organizer-git.py --remove --title "Uncharted"
 
   # Remove content by TMDB ID
-  python organizer_complete.py --remove --tmdb-id 335787
+  python organizer-git.py --remove --tmdb-id 335787
 
   # Scan more content
-  python organizer_complete.py --movies 30 --tv-shows 20
-  
+  python organizer-git.py --movies 30 --tv-shows 20
+
   # Disable GitHub auto-update
-  python organizer_complete.py --no-git
+  python organizer-git.py --no-git
         '''
     )
     parser.add_argument('--full', action='store_true', help='Perform full scan (not incremental)')

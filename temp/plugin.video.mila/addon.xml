@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.mila" name="MILA - Media Index Library Addon" version="2.0.2" provider-name="nevendary">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.18.4"/>
+        <import addon="script.module.unidecode" version="0.4.16"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Media Index Library Addon - Organized media browsing and playback</summary>
+        <description>Browse and play media files with enhanced organization. Features include API server integration, organized TV shows and movies by letters/seasons, and all original playback features.</description>
+        <disclaimer lang="en_GB">The plugin does not provide any content, it is only a media browser interface. I am not responsible for any content accessed through this plugin.</disclaimer>
+        <disclaimer lang="sk_SK">Plugin neposkytuje žiaden obsah, je to len rozhranie pre prehľadávanie médií. Nie som zodpovedný za obsah, ktorý je prístupný cez tento plugin.</disclaimer>
+        <disclaimer lang="cs_CZ">Plugin neposkytuje žádný obsah, je to jen simulace prohlížeče veřejně dostupné web stránky. Nejsem zodpovědný za obsah, který tato stránka poskytuje.</disclaimer>
+        <platform>all</platform>
+        <license>AGPL 3.0</license>
+        <forum>https://github.com/nevendary/mila</forum>
+        <source>https://github.com/nevendary/mila</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+        <news>
+[B]2.0.0[/B]
+- Renamed to MILA (Media Index Library Addon)
+- Enhanced mode with organized TV shows and movies
+- API server integration support
+- Better organization by letters/seasons
+- All original playback features preserved
+
+[B]1.0.0[/B]
+- Initial release as MILA
+- Based on YAWsP Enhanced codebase
+- Improved code structure and naming
+        </news>
+    </extension>
+</addon>
