@@ -1,2 +1,0 @@
-WEBSHARE_USER = "nevchess"
-WEBSHARE_PASS = "Kc19Ts94Lns67"
