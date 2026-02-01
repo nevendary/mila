@@ -1836,6 +1836,152 @@
           "size": "1863843265"
         }
       ]
+    },
+    {
+      "id": "b6ffa7ee",
+      "tmdb_id": 293660,
+      "title": "Deadpool",
+      "title_en": "Deadpool",
+      "title_cz": null,
+      "year": "2016",
+      "description": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+      "description_cz": "Než se stal Deadpoolem, byl Wadem Wilsonem, bývalým členem speciálních jednotek. Když mu lékaři diagnostikovali pokročilé stadium rakoviny, podrobil se experimentální léčbě v rámci programu Weapon X, známého a populárního především mezi x-menovskými mutanty. Díky tomu se Wade zbavil rakoviny, a nejenže zůstal naživu, ale také jako bonus získal schopnost rychlého samouzdravování. Bohužel však – například oproti Wolverinovi, který po podobné léčbě zůstal celkem sexy – z tohoto pokusu vyšel trvale znetvořený. Vypadá dle vlastních slov jako „avokádo, které mělo sex se starším avokádem“. I proto celkem bez většího odporu přijal okostýmované alter ego jménem Deadpool.",
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "rating": 7.622,
+      "vote_count": 32297,
+      "runtime": 108,
+      "poster": "https://image.tmdb.org/t/p/original/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+      "cast": [
+        {
+          "id": 10859,
+          "name": "Ryan Reynolds",
+          "character": "Wade Wilson / Deadpool",
+          "profile_path": "/trzgptffGvAlAT6MEu01fz47cLW.jpg",
+          "order": 0
+        },
+        {
+          "id": 54882,
+          "name": "Morena Baccarin",
+          "character": "Vanessa",
+          "profile_path": "/kBSKKaOtsqIzZPhtEeHfCBmhWl9.jpg",
+          "order": 1
+        },
+        {
+          "id": 1047649,
+          "name": "Ed Skrein",
+          "character": "Ajax",
+          "profile_path": "/btJvbQbWf3ciYM4SM5tMWSJEkXX.jpg",
+          "order": 2
+        },
+        {
+          "id": 51990,
+          "name": "T.J. Miller",
+          "character": "Weasel",
+          "profile_path": "/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg",
+          "order": 3
+        },
+        {
+          "id": 78452,
+          "name": "Gina Carano",
+          "character": "Angel Dust",
+          "profile_path": "/6K89PVbt3v2N7cqbPyZiO74yuOj.jpg",
+          "order": 4
+        },
+        {
+          "id": 122750,
+          "name": "Leslie Uggams",
+          "character": "Blind Al",
+          "profile_path": "/peLaqLcs3y2WY4TbrLOXQGt9I8S.jpg",
+          "order": 5
+        },
+        {
+          "id": 1492326,
+          "name": "Brianna Hildebrand",
+          "character": "Negasonic Teenage Warhead",
+          "profile_path": "/8lGwV4rMQReWMlsXhLBYMRTYzTA.jpg",
+          "order": 6
+        },
+        {
+          "id": 80507,
+          "name": "Stefan Kapičić",
+          "character": "Colossus (voice)",
+          "profile_path": "/6qHO7ckiyjLNOmW0v5RZj1MpLBj.jpg",
+          "order": 7
+        },
+        {
+          "id": 1109702,
+          "name": "Karan Soni",
+          "character": "Dopinder",
+          "profile_path": "/t3eNrzRKy3wTVCUiEp002UXbjxX.jpg",
+          "order": 8
+        },
+        {
+          "id": 215887,
+          "name": "Randal Reeder",
+          "character": "Buck",
+          "profile_path": "/eJfW7w36Vl8dEnN9T2dnlkUReWG.jpg",
+          "order": 9
+        }
+      ],
+      "crew": [
+        {
+          "id": 55252,
+          "name": "Tim Miller",
+          "job": "Director"
+        },
+        {
+          "id": 7932,
+          "name": "Rhett Reese",
+          "job": "Writer"
+        },
+        {
+          "id": 91269,
+          "name": "Paul Wernick",
+          "job": "Writer"
+        },
+        {
+          "id": 934844,
+          "name": "Rob Liefeld",
+          "job": "Comic Book"
+        },
+        {
+          "id": 1222480,
+          "name": "Fabian Nicieza",
+          "job": "Comic Book"
+        }
+      ],
+      "release_date": "2016-02-09",
+      "streams": [
+        {
+          "ident": "vLyvBupI54",
+          "name": "Deadpool 2016 1080p DTS-HD 7.1.mkv",
+          "size": "23321619609"
+        },
+        {
+          "ident": "RU9LrNzWAh",
+          "name": "Deadpool 2016 1080p DTS-HD 7.1.mkv",
+          "size": "23321619609"
+        },
+        {
+          "ident": "PLNdUGX8We",
+          "name": "X-Men  8 Deadpool (2016) UHDRDV cz en.mkv",
+          "size": "5168349444"
+        }
+      ]
     }
   ],
   "tv_shows": [
@@ -41344,10 +41490,10 @@
   ],
   "stats": {
     "tv_shows_count": 5,
-    "movies_count": 10,
+    "movies_count": 11,
     "total_episodes": 445,
-    "total_movie_files": 126,
-    "last_updated": "2026-02-01T02:01:22.560765"
+    "total_movie_files": 129,
+    "last_updated": "2026-02-01T16:46:16.439674"
   },
-  "last_updated": "2026-02-01T02:01:22.560778"
+  "last_updated": "2026-02-01T16:46:16.439690"
 }
