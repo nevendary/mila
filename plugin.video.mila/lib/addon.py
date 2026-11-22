@@ -746,6 +746,7 @@ class MILA:
         from lib.utils import popinfo, poperror
         if self.addon.getSetting('enable_manual_webshare_search') != 'true':
             popinfo("Manual WebShare search is disabled in settings")
+            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
         if prefill_query:
             query = prefill_query
@@ -753,13 +754,16 @@ class MILA:
             keyboard = xbmc.Keyboard('', 'Search WebShare')
             keyboard.doModal()
             if not keyboard.isConfirmed():
+                xbmcplugin.endOfDirectory(self.handle, succeeded=False)
                 return
             query = keyboard.getText().strip()
             if not query:
+                xbmcplugin.endOfDirectory(self.handle, succeeded=False)
                 return
         if not self.websharder.token:
             if not self.websharder.login():
                 poperror("WebShare login failed!")
+                xbmcplugin.endOfDirectory(self.handle, succeeded=False)
                 return
         progress = xbmcgui.DialogProgress()
         progress.create("WebShare Search", f"Searching for:\n{query}")
@@ -767,6 +771,7 @@ class MILA:
         progress.close()
         if not results:
             popinfo(f"No results found for: {query}")
+            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
         filenames = []
         idents = []
@@ -778,10 +783,12 @@ class MILA:
                 idents.append(ident)
         if not filenames:
             popinfo("No files found")
+            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
         dialog = xbmcgui.Dialog()
         sel = dialog.select(f"WebShare: {query}", filenames)
         if sel < 0:
+            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
         ident = idents[sel]
         filename = filenames[sel]
@@ -796,9 +803,13 @@ class MILA:
                 'year': '',
                 'poster': ''
             })
+            return
+        else:
+            poperror("Failed to play this file. Check the Kodi log.")
+            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
+            return
 
-
-        # ===== DYNAMIC SUGGESTIONS (v2 - under Watch History, fewer folders, more results) =====
+    # ===== DYNAMIC SUGGESTIONS (v2 - under Watch History, fewer folders, more results) =====
 
     def dynamic_menu(self):
         xbmcplugin.setPluginCategory(self.handle, 'Dynamic Picks')
