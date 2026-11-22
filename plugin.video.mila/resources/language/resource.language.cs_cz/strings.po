@@ -1,0 +1,451 @@
+# XBMC Media Center language file
+# Addon Name: MILA
+# Addon id: plugin.video.mila
+# Language: cs_CZ
+
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: cs\n"
+
+#===== SEARCH & HISTORY =====
+msgctxt "#30000"
+msgid "Search"
+msgstr "Vyhledávání"
+
+msgctxt "#30001"
+msgid "Search History"
+msgstr "Historie vyhledávání"
+
+msgctxt "#30002"
+msgid "Watch History"
+msgstr "Historie sledování"
+
+msgctxt "#30003"
+msgid "Clear all"
+msgstr "Vymazat vše"
+
+msgctxt "#30004"
+msgid "Remove from history"
+msgstr "Odstranit z historie"
+
+msgctxt "#30005"
+msgid "No search history"
+msgstr "Žádná historie vyhledávání"
+
+msgctxt "#30006"
+msgid "No watch history"
+msgstr "Žádná historie sledování"
+
+#===== MOVIES & TV =====
+msgctxt "#30100"
+msgid "Popular Movies"
+msgstr "Populární filmy"
+
+msgctxt "#30101"
+msgid "Top Rated Movies"
+msgstr "Nejlépe hodnocené filmy"
+
+msgctxt "#30102"
+msgid "Popular TV Shows"
+msgstr "Populární seriály"
+
+msgctxt "#30103"
+msgid "Top Rated TV Shows"
+msgstr "Nejlépe hodnocené seriály"
+
+msgctxt "#30104"
+msgid "Season"
+msgstr "Sezóna"
+
+msgctxt "#30105"
+msgid "Episode"
+msgstr "Epizoda"
+
+msgctxt "#30106"
+msgid "episodes"
+msgstr "epizod"
+
+#===== SEARCH RESULTS =====
+msgctxt "#30200"
+msgid "Found {} results"
+msgstr "Nalezeno {} výsledků"
+
+#===== MAIN MENU CATEGORIES =====
+msgctxt "#32000"
+msgid "Trending Now"
+msgstr "Trendy"
+
+msgctxt "#32001"
+msgid "Genres"
+msgstr "Žánry"
+
+msgctxt "#32002"
+msgid "Czech & Slovak"
+msgstr "České a slovenské"
+
+msgctxt "#32003"
+msgid "Studios"
+msgstr "Studia"
+
+msgctxt "#32004"
+msgid "Decades"
+msgstr "Dekády"
+
+msgctxt "#32005"
+msgid "Smart Mixes"
+msgstr "Chytré mixy"
+
+msgctxt "#32006"
+msgid "Recent Releases"
+msgstr "Nedávné premiéry"
+
+#===== TRENDING & NOW =====
+msgctxt "#32007"
+msgid "Trending This Week"
+msgstr "Trendy tento týden"
+
+msgctxt "#32008"
+msgid "Trending Today"
+msgstr "Trendy dnes"
+
+msgctxt "#32009"
+msgid "Now Playing"
+msgstr "Právě v kinech"
+
+msgctxt "#32010"
+msgid "Upcoming"
+msgstr "Brzy v kinech"
+
+#===== GENRES =====
+msgctxt "#32011"
+msgid "Action"
+msgstr "Akční"
+
+msgctxt "#32012"
+msgid "Adventure"
+msgstr "Dobrodružné"
+
+msgctxt "#32013"
+msgid "Action & Adventure"
+msgstr "Akční a dobrodružné"
+
+msgctxt "#32014"
+msgid "Comedy"
+msgstr "Komedie"
+
+msgctxt "#32015"
+msgid "Drama"
+msgstr "Drama"
+
+msgctxt "#32016"
+msgid "Comedy & Drama"
+msgstr "Komedie a drama"
+
+msgctxt "#32017"
+msgid "Thriller"
+msgstr "Thriller"
+
+msgctxt "#32018"
+msgid "Horror"
+msgstr "Horor"
+
+msgctxt "#32019"
+msgid "Thriller & Horror"
+msgstr "Thriller a horor"
+
+msgctxt "#32020"
+msgid "Sci-Fi"
+msgstr "Sci-Fi"
+
+msgctxt "#32021"
+msgid "Fantasy"
+msgstr "Fantasy"
+
+msgctxt "#32022"
+msgid "Sci-Fi & Fantasy"
+msgstr "Sci-Fi a fantasy"
+
+msgctxt "#32023"
+msgid "Romance"
+msgstr "Romantické"
+
+msgctxt "#32024"
+msgid "Family"
+msgstr "Rodinné"
+
+msgctxt "#32025"
+msgid "Animation"
+msgstr "Animované"
+
+msgctxt "#32026"
+msgid "Family & Animation"
+msgstr "Rodinné a animované"
+
+msgctxt "#32027"
+msgid "Documentary"
+msgstr "Dokumentární"
+
+msgctxt "#32028"
+msgid "War"
+msgstr "Válečné"
+
+msgctxt "#32029"
+msgid "History"
+msgstr "Historické"
+
+msgctxt "#32030"
+msgid "War & History"
+msgstr "Válečné a historické"
+
+msgctxt "#32031"
+msgid "Crime"
+msgstr "Kriminální"
+
+msgctxt "#32032"
+msgid "Mystery"
+msgstr "Mysteriózní"
+
+#===== CZECH & SLOVAK =====
+msgctxt "#32033"
+msgid "Czech Movies"
+msgstr "České filmy"
+
+msgctxt "#32034"
+msgid "Recent Czech Movies"
+msgstr "Nové české filmy"
+
+msgctxt "#32035"
+msgid "Czechoslovak Classics"
+msgstr "Československé klasiky"
+
+msgctxt "#32036"
+msgid "Slovak Movies"
+msgstr "Slovenské filmy"
+
+#===== STUDIOS =====
+msgctxt "#32037"
+msgid "Marvel"
+msgstr "Marvel"
+
+msgctxt "#32038"
+msgid "DC Comics"
+msgstr "DC Comics"
+
+msgctxt "#32039"
+msgid "Disney"
+msgstr "Disney"
+
+msgctxt "#32040"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "#32041"
+msgid "HBO Max"
+msgstr "HBO Max"
+
+msgctxt "#32042"
+msgid "Amazon Prime"
+msgstr "Amazon Prime"
+
+msgctxt "#32043"
+msgid "Apple TV+"
+msgstr "Apple TV+"
+
+msgctxt "#32044"
+msgid "Paramount"
+msgstr "Paramount"
+
+msgctxt "#32045"
+msgid "Universal"
+msgstr "Universal"
+
+msgctxt "#32046"
+msgid "Warner Bros"
+msgstr "Warner Bros"
+
+msgctxt "#32047"
+msgid "Sony Pictures"
+msgstr "Sony Pictures"
+
+#===== DECADES =====
+msgctxt "#32048"
+msgid "1980s"
+msgstr "80. léta"
+
+msgctxt "#32049"
+msgid "1990s"
+msgstr "90. léta"
+
+msgctxt "#32050"
+msgid "2000s"
+msgstr "2000-2009"
+
+msgctxt "#32051"
+msgid "2010s"
+msgstr "2010-2019"
+
+msgctxt "#32052"
+msgid "2020s"
+msgstr "2020-2029"
+
+#===== SMART MIXES =====
+msgctxt "#32053"
+msgid "Cult Classics"
+msgstr "Kultovní klasiky"
+
+msgctxt "#32054"
+msgid "Feel Good"
+msgstr "Pohodové filmy"
+
+msgctxt "#32055"
+msgid "Date Night"
+msgstr "Na rande"
+
+msgctxt "#32056"
+msgid "Weekend Binge"
+msgstr "Na víkend"
+
+#===== RECENT RELEASES =====
+msgctxt "#32057"
+msgid "This Month"
+msgstr "Poslední měsíc"
+
+msgctxt "#32058"
+msgid "Last 3 Months"
+msgstr "Poslední 3 měsíce"
+
+msgctxt "#32059"
+msgid "This Year"
+msgstr "Tento rok"
+
+#===== ADDITIONAL STRINGS =====
+msgctxt "#32060"
+msgid "Select Stream"
+msgstr "Vybrat stream"
+
+msgctxt "#32061"
+msgid "No files found"
+msgstr "Nebyly nalezeny žádné soubory"
+
+msgctxt "#32062"
+msgid "Searching..."
+msgstr "Vyhledávání..."
+
+# ===== YUGOSLAV / EX-YU REGION =====
+msgctxt "#32100"
+msgid "Yugoslav & Ex-YU"
+msgstr "Jugoslávie a EX-YU"
+
+msgctxt "#32101"
+msgid "All Yugoslav Movies"
+msgstr "Všechny jugoslávské filmy"
+
+msgctxt "#32102"
+msgid "All Yugoslav TV Shows"
+msgstr "Všechny jugoslávské seriály"
+
+msgctxt "#32103"
+msgid "Serbian Movies"
+msgstr "Srbské filmy"
+
+msgctxt "#32104"
+msgid "Serbian TV Shows"
+msgstr "Srbské seriály"
+
+msgctxt "#32105"
+msgid "Croatian Movies"
+msgstr "Chorvatské filmy"
+
+msgctxt "#32106"
+msgid "Croatian TV Shows"
+msgstr "Chorvatské seriály"
+
+msgctxt "#32107"
+msgid "Bosnian Movies"
+msgstr "Bosenské filmy"
+
+msgctxt "#32108"
+msgid "Bosnian TV Shows"
+msgstr "Bosenské seriály"
+
+msgctxt "#32109"
+msgid "Montenegrin Movies"
+msgstr "Černohorské filmy"
+
+msgctxt "#32110"
+msgid "Montenegrin TV Shows"
+msgstr "Černohorské seriály"
+
+msgctxt "#32111"
+msgid "Yugoslav Classics (pre-1992)"
+msgstr "Jugoslávské klasiky (před 1992)"
+
+msgctxt "#32112"
+msgid "Yugoslav TV Classics"
+msgstr "Jugoslávské seriálové klasiky"
+
+msgctxt "#32113"
+msgid "Yugoslav Westerns"
+msgstr "Jugoslávské westerny"
+
+msgctxt "#32114"
+msgid "Partisan Films"
+msgstr "Partyzánské filmy"
+
+msgctxt "#32115"
+msgid "Recent Regional Movies"
+msgstr "Nedávné regionální filmy"
+
+msgctxt "#32116"
+msgid "Recent Regional TV"
+msgstr "Nedávné regionální seriály"
+
+msgctxt "#32117"
+msgid "Pula Film Festival"
+msgstr "Filmový festival Pula"
+
+msgctxt "#32118"
+msgid "Sarajevo Film Festival"
+msgstr "Filmový festival Sarajevo"
+
+# ===== DYNAMIC SUGGESTIONS =====
+msgctxt "#33000"
+msgid "Hidden Gems"
+msgstr "Skrytأ© skvosty"
+
+msgctxt "#33001"
+msgid "Fresh & Acclaimed"
+msgstr "ؤŒerstvأ© a oceإˆovanأ©"
+
+msgctxt "#33002"
+msgid "Surprise Me"
+msgstr "Pإ™ekvap mؤ›"
+
+msgctxt "#33003"
+msgid "Quick Watch (under 90 min)"
+msgstr "Rychlأ© sledovأ،nأ­ (do 90 min)"
+
+msgctxt "#33004"
+msgid "Underrated"
+msgstr "Nedocenؤ›nأ©"
+
+msgctxt "#33005"
+msgid "Critically Acclaimed"
+msgstr "Kritikou oceإˆovanأ©"
+
+msgctxt "#33006"
+msgid "Feel Good (under 2h)"
+msgstr "Pro dobrou nأ،ladu (do 2h)"
+
+msgctxt "#33007"
+msgid "Mind Benders"
+msgstr "Pro mozek"
+
+msgctxt "#33008"
+msgid "Foreign Language Gems"
+msgstr "Skvosty v cizأ­ch jazycأ­ch"
+
+msgctxt "#33009"
+msgid "Random Discovery"
+msgstr "Nأ،hodnأ© objevy"

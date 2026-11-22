@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <!-- WebShare Account -->
+    <setting id="wsuser" type="text" label="WebShare Username/Email" default=""/>
+    <setting id="wspass" type="text" label="WebShare Password" default="" option="hidden"/>
+
+    <!-- TMDB Settings -->
+    <setting id="tmdb_api_key" type="text" label="TMDB API Key" default="9567cc1179d493c3b22f0682dbdf2e42"/>
+    <setting id="tmdb_language" type="select" label="TMDB Language" values="en-US|cs-CZ|hr-HR" default="en-US"/>
+
+    <!-- OpenSubtitles Settings -->
+    <setting id="subtitles_enabled" type="bool" label="Enable OpenSubtitles" default="true"/>
+    <setting id="os_user" type="text" label="OpenSubtitles Username" default="" enable="eq(-1,true)"/>
+    <setting id="os_pass" type="text" label="OpenSubtitles Password" default="" option="hidden" enable="eq(-2,true)"/>
+    <setting id="subtitle_language" type="select" label="Preferred subtitle language" values="eng|cze|hrv" default="eng" enable="eq(-3,true)"/>
+    <setting id="subtitles_auto" type="bool" label="Auto-download subtitles" default="true" enable="eq(-4,true)"/>
+    <setting id="subtitle_folder" type="folder" label="Subtitle download folder" default="special://temp/mila_subs/" enable="eq(-5,true)"/>
+
+    <!-- Playback Settings -->
+    <setting id="autoplay" type="bool" label="Enable autoplay" default="true"/>
+    <setting id="skip_popup" type="bool" label="Skip stream selection popup" default="false" enable="eq(-1,true)"/>
+    <setting id="preferred_language" type="select" label="Preferred audio language" values="Any|English|Czech|Croatian" default="Any"/>
+    <setting id="max_quality" type="select" label="Maximum quality" values="4K|1080p|720p|480p" default="4K"/>
+    <setting id="autoplay_resolution" type="select" label="Preferred resolution" values="4K|1080p|720p|480p" default="1080p" enable="eq(-3,true)"/>
+    <setting id="prefer_hdr" type="bool" label="Prefer HDR" default="true"/>
+
+    <!-- Manual WebShare Search & History -->
+    <setting id="enable_manual_webshare_search" type="bool" label="Enable manual WebShare search" default="false"/>
+    <setting id="group_episodes_in_history" type="bool" label="Group episodes under TV show in history" default="true"/>
+
+    <!-- Advanced -->
+    <setting id="clear_cache" type="action" label="Clear Cache" action="RunPlugin(plugin://plugin.video.mila/?action=clear_cache)"/>
+    <setting id="clear_subs" type="action" label="Clear Subtitle Cache" action="RunPlugin(plugin://plugin.video.mila/?action=clear_subtitles)"/>
+
+    <!-- Dynamic Suggestions -->
+    <setting id="dynamic_seed_mode" type="select" label="Dynamic suggestions refresh" values="Every visit|Daily|Weekly" default="Every visit"/>
+    <setting id="dynamic_enabled" type="bool" label="Enable dynamic suggestions folder" default="true"/>
+</settings>

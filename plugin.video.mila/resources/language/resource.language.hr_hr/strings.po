@@ -1,0 +1,458 @@
+# Kodi Media Center language file
+# Addon: plugin.video.mila
+# Language: hr_HR
+msgid ""
+msgstr ""
+"Project-Id-Version: MILA\n"
+"Report-Msgid-Bugs-To: https://github.com/\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: You\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#===== SEARCH & HISTORY =====
+msgctxt "#30000"
+msgid "Search"
+msgstr "Pretraži"
+
+msgctxt "#30001"
+msgid "Search History"
+msgstr "Povijest pretraživanja"
+
+msgctxt "#30002"
+msgid "Watch History"
+msgstr "Povijest gledanja"
+
+msgctxt "#30003"
+msgid "Clear all"
+msgstr "Očisti sve"
+
+msgctxt "#30004"
+msgid "Remove from history"
+msgstr "Ukloni iz povijesti"
+
+msgctxt "#30005"
+msgid "No search history"
+msgstr "Nema povijesti pretraživanja"
+
+msgctxt "#30006"
+msgid "No watch history"
+msgstr "Nema povijesti gledanja"
+
+#===== MOVIES & TV =====
+msgctxt "#30100"
+msgid "Popular Movies"
+msgstr "Popularni filmovi"
+
+msgctxt "#30101"
+msgid "Top Rated Movies"
+msgstr "Najbolje ocijenjeni filmovi"
+
+msgctxt "#30102"
+msgid "Popular TV Shows"
+msgstr "Popularne serije"
+
+msgctxt "#30103"
+msgid "Top Rated TV Shows"
+msgstr "Najbolje ocijenjene serije"
+
+msgctxt "#30104"
+msgid "Season"
+msgstr "Sezona"
+
+msgctxt "#30105"
+msgid "Episode"
+msgstr "Epizoda"
+
+msgctxt "#30106"
+msgid "episodes"
+msgstr "epizoda"
+
+#===== SEARCH RESULTS =====
+msgctxt "#30200"
+msgid "Found {} results"
+msgstr "Pronađeno {} rezultata"
+
+#===== MAIN MENU CATEGORIES =====
+msgctxt "#32000"
+msgid "Trending Now"
+msgstr "Trenutno popularno"
+
+msgctxt "#32001"
+msgid "Genres"
+msgstr "Žanrovi"
+
+msgctxt "#32002"
+msgid "Czech & Slovak"
+msgstr "Češki i slovački"
+
+msgctxt "#32003"
+msgid "Studios"
+msgstr "Studiji"
+
+msgctxt "#32004"
+msgid "Decades"
+msgstr "Desetljeća"
+
+msgctxt "#32005"
+msgid "Smart Mixes"
+msgstr "Pametni miksevi"
+
+msgctxt "#32006"
+msgid "Recent Releases"
+msgstr "Nedavna izdanja"
+
+#===== TRENDING & NOW =====
+msgctxt "#32007"
+msgid "Trending This Week"
+msgstr "Popularno ovaj tjedan"
+
+msgctxt "#32008"
+msgid "Trending Today"
+msgstr "Popularno danas"
+
+msgctxt "#32009"
+msgid "Now Playing"
+msgstr "Trenutno u kinima"
+
+msgctxt "#32010"
+msgid "Upcoming"
+msgstr "Dolazi uskoro"
+
+#===== GENRES =====
+msgctxt "#32011"
+msgid "Action"
+msgstr "Akcijski"
+
+msgctxt "#32012"
+msgid "Adventure"
+msgstr "Avanturistički"
+
+msgctxt "#32013"
+msgid "Action & Adventure"
+msgstr "Akcija i avantura"
+
+msgctxt "#32014"
+msgid "Comedy"
+msgstr "Komedija"
+
+msgctxt "#32015"
+msgid "Drama"
+msgstr "Drama"
+
+msgctxt "#32016"
+msgid "Comedy & Drama"
+msgstr "Komedija i drama"
+
+msgctxt "#32017"
+msgid "Thriller"
+msgstr "Triler"
+
+msgctxt "#32018"
+msgid "Horror"
+msgstr "Horor"
+
+msgctxt "#32019"
+msgid "Thriller & Horror"
+msgstr "Triler i horor"
+
+msgctxt "#32020"
+msgid "Sci-Fi"
+msgstr "Znanstvena fantastika"
+
+msgctxt "#32021"
+msgid "Fantasy"
+msgstr "Fantazija"
+
+msgctxt "#32022"
+msgid "Sci-Fi & Fantasy"
+msgstr "ZF i fantazija"
+
+msgctxt "#32023"
+msgid "Romance"
+msgstr "Romantika"
+
+msgctxt "#32024"
+msgid "Family"
+msgstr "Obiteljski"
+
+msgctxt "#32025"
+msgid "Animation"
+msgstr "Animirani"
+
+msgctxt "#32026"
+msgid "Family & Animation"
+msgstr "Obiteljski i animirani"
+
+msgctxt "#32027"
+msgid "Documentary"
+msgstr "Dokumentarni"
+
+msgctxt "#32028"
+msgid "War"
+msgstr "Ratni"
+
+msgctxt "#32029"
+msgid "History"
+msgstr "Povijesni"
+
+msgctxt "#32030"
+msgid "War & History"
+msgstr "Ratni i povijesni"
+
+msgctxt "#32031"
+msgid "Crime"
+msgstr "Kriminalistički"
+
+msgctxt "#32032"
+msgid "Mystery"
+msgstr "Misterij"
+
+#===== CZECH & SLOVAK =====
+msgctxt "#32033"
+msgid "Czech Movies"
+msgstr "Češki filmovi"
+
+msgctxt "#32034"
+msgid "Recent Czech Movies"
+msgstr "Novi češki filmovi"
+
+msgctxt "#32035"
+msgid "Czechoslovak Classics"
+msgstr "Čehoslovački klasici"
+
+msgctxt "#32036"
+msgid "Slovak Movies"
+msgstr "Slovački filmovi"
+
+#===== STUDIOS =====
+msgctxt "#32037"
+msgid "Marvel"
+msgstr "Marvel Studios"
+
+msgctxt "#32038"
+msgid "DC Comics"
+msgstr "DC Comics"
+
+msgctxt "#32039"
+msgid "Disney"
+msgstr "Disney"
+
+msgctxt "#32040"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "#32041"
+msgid "HBO Max"
+msgstr "HBO Max"
+
+msgctxt "#32042"
+msgid "Amazon Prime"
+msgstr "Amazon Prime"
+
+msgctxt "#32043"
+msgid "Apple TV+"
+msgstr "Apple TV+"
+
+msgctxt "#32044"
+msgid "Paramount"
+msgstr "Paramount"
+
+msgctxt "#32045"
+msgid "Universal"
+msgstr "Universal"
+
+msgctxt "#32046"
+msgid "Warner Bros"
+msgstr "Warner Bros"
+
+msgctxt "#32047"
+msgid "Sony Pictures"
+msgstr "Sony Pictures"
+
+#===== DECADES =====
+msgctxt "#32048"
+msgid "1980s"
+msgstr "1980-e"
+
+msgctxt "#32049"
+msgid "1990s"
+msgstr "1990-e"
+
+msgctxt "#32050"
+msgid "2000s"
+msgstr "2000-2009"
+
+msgctxt "#32051"
+msgid "2010s"
+msgstr "2010-2019"
+
+msgctxt "#32052"
+msgid "2020s"
+msgstr "2020-2029"
+
+#===== SMART MIXES =====
+msgctxt "#32053"
+msgid "Cult Classics"
+msgstr "Kultni klasici"
+
+msgctxt "#32054"
+msgid "Feel Good"
+msgstr "Dobar osjećaj"
+
+msgctxt "#32055"
+msgid "Date Night"
+msgstr "Večer za dvoje"
+
+msgctxt "#32056"
+msgid "Weekend Binge"
+msgstr "Vikend maraton"
+
+#===== RECENT RELEASES =====
+msgctxt "#32057"
+msgid "This Month"
+msgstr "Ovaj mjesec"
+
+msgctxt "#32058"
+msgid "Last 3 Months"
+msgstr "Zadnja 3 mjeseca"
+
+msgctxt "#32059"
+msgid "This Year"
+msgstr "Ova godina"
+
+#===== ADDITIONAL STRINGS =====
+msgctxt "#32060"
+msgid "Select Stream"
+msgstr "Odaberi stream"
+
+msgctxt "#32061"
+msgid "No files found"
+msgstr "Nema pronađenih datoteka"
+
+msgctxt "#32062"
+msgid "Searching..."
+msgstr "Pretraživanje..."
+
+# ===== YUGOSLAV / EX-YU REGION =====
+msgctxt "#32100"
+msgid "Yugoslav & Ex-YU"
+msgstr "Jugoslavenski i Ex-YU"
+
+msgctxt "#32101"
+msgid "All Yugoslav Movies"
+msgstr "Svi jugoslavenski filmovi"
+
+msgctxt "#32102"
+msgid "All Yugoslav TV Shows"
+msgstr "Sve jugoslavenske TV serije"
+
+msgctxt "#32103"
+msgid "Serbian Movies"
+msgstr "Srpski filmovi"
+
+msgctxt "#32104"
+msgid "Serbian TV Shows"
+msgstr "Srpske TV serije"
+
+msgctxt "#32105"
+msgid "Croatian Movies"
+msgstr "Hrvatski filmovi"
+
+msgctxt "#32106"
+msgid "Croatian TV Shows"
+msgstr "Hrvatske TV serije"
+
+msgctxt "#32107"
+msgid "Bosnian Movies"
+msgstr "Bosanski filmovi"
+
+msgctxt "#32108"
+msgid "Bosnian TV Shows"
+msgstr "Bosanske TV serije"
+
+msgctxt "#32109"
+msgid "Montenegrin Movies"
+msgstr "Crnogorski filmovi"
+
+msgctxt "#32110"
+msgid "Montenegrin TV Shows"
+msgstr "Crnogorske TV serije"
+
+msgctxt "#32111"
+msgid "Yugoslav Classics (pre-1992)"
+msgstr "Jugoslavenski klasici (prije 1992)"
+
+msgctxt "#32112"
+msgid "Yugoslav TV Classics"
+msgstr "Jugoslavenski TV klasici"
+
+msgctxt "#32113"
+msgid "Yugoslav Westerns"
+msgstr "Jugoslavenski vesterni"
+
+msgctxt "#32114"
+msgid "Partisan Films"
+msgstr "Partizanski filmovi"
+
+msgctxt "#32115"
+msgid "Recent Regional Movies"
+msgstr "Noviji regionalni filmovi"
+
+msgctxt "#32116"
+msgid "Recent Regional TV"
+msgstr "Novije regionalne serije"
+
+msgctxt "#32117"
+msgid "Pula Film Festival"
+msgstr "Pulski filmski festival"
+
+msgctxt "#32118"
+msgid "Sarajevo Film Festival"
+msgstr "Sarajevski filmski festival"
+
+# ===== DYNAMIC SUGGESTIONS =====
+msgctxt "#33000"
+msgid "Hidden Gems"
+msgstr "Skriveni dragulji"
+
+msgctxt "#33001"
+msgid "Fresh & Acclaimed"
+msgstr "Svjeإ¾e i hvaljeno"
+
+msgctxt "#33002"
+msgid "Surprise Me"
+msgstr "Iznenadi me"
+
+msgctxt "#33003"
+msgid "Quick Watch (under 90 min)"
+msgstr "Kratko gledanje (do 90 min)"
+
+msgctxt "#33004"
+msgid "Underrated"
+msgstr "Podcijenjeno"
+
+msgctxt "#33005"
+msgid "Critically Acclaimed"
+msgstr "Kritiؤچki hvaljeno"
+
+msgctxt "#33006"
+msgid "Feel Good (under 2h)"
+msgstr "Za dobar osjeؤ‡aj (do 2h)"
+
+msgctxt "#33007"
+msgid "Mind Benders"
+msgstr "Za mozak"
+
+msgctxt "#33008"
+msgid "Foreign Language Gems"
+msgstr "Dragulji na stranim jezicima"
+
+msgctxt "#33009"
+msgid "Random Discovery"
+msgstr "Sluؤچajno otkriؤ‡e"
