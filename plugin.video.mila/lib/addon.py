@@ -242,6 +242,10 @@ class MILA:
             self.show_search_results(query)
         elif action == 'manual_webshare_search':
             self.manual_webshare_search()
+        elif action == 'play_manual_webshare':
+            ident = params.get('ident', '')
+            filename = params.get('filename', '')
+            self.play_manual_webshare(ident, filename)
         elif action == 'dynamic_menu':
             self.dynamic_menu()
         elif action == 'dynamic_hidden_gems':
@@ -744,10 +748,12 @@ class MILA:
 
     def manual_webshare_search(self, prefill_query=''):
         from lib.utils import popinfo, poperror
+
         if self.addon.getSetting('enable_manual_webshare_search') != 'true':
             popinfo("Manual WebShare search is disabled in settings")
             xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
+
         if prefill_query:
             query = prefill_query
         else:
@@ -760,54 +766,65 @@ class MILA:
             if not query:
                 xbmcplugin.endOfDirectory(self.handle, succeeded=False)
                 return
+
         if not self.websharder.token:
             if not self.websharder.login():
                 poperror("WebShare login failed!")
                 xbmcplugin.endOfDirectory(self.handle, succeeded=False)
                 return
+
         progress = xbmcgui.DialogProgress()
-        progress.create("WebShare Search", f"Searching for:\n{query}")
+        progress.create("WebShare Search", "Searching for:\n" + query)
         results = self.websharder.search_webshare(query, max_results=100)
         progress.close()
+
         if not results:
-            popinfo(f"No results found for: {query}")
+            popinfo("No results for: " + query)
             xbmcplugin.endOfDirectory(self.handle, succeeded=False)
             return
-        filenames = []
-        idents = []
+
+        xbmcplugin.setPluginCategory(self.handle, "WebShare: " + query)
+        xbmcplugin.setContent(self.handle, 'files')
+
+        count = 0
         for r in results:
-            fn = r.get('name') or r.get('filename') or '(no filename)'
             ident = r.get('ident')
-            if ident:
-                filenames.append(fn)
-                idents.append(ident)
-        if not filenames:
-            popinfo("No files found")
-            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
-            return
-        dialog = xbmcgui.Dialog()
-        sel = dialog.select(f"WebShare: {query}", filenames)
-        if sel < 0:
-            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
-            return
-        ident = idents[sel]
-        filename = filenames[sel]
-        log(f"Manual WebShare play: {ident} ({filename})")
-        self.stream_selector.handle = self.handle
-        success = self.stream_selector._play_stream(ident, filename, tmdb_id=None, silent_fail=False)
-        if success:
-            self.history.add_watched({
-                'type': 'movie',
-                'tmdb_id': None,
-                'title': filename,
-                'year': '',
-                'poster': ''
-            })
-            return
-        else:
-            poperror("Failed to play this file. Check the Kodi log.")
-            xbmcplugin.endOfDirectory(self.handle, succeeded=False)
-            return
+            fn = r.get('name') or r.get('filename') or ''
+            if not ident or not fn:
+                continue
+            count += 1
+            li = xbmcgui.ListItem(label=fn)
+            li.setProperty('IsPlayable', 'true')
+            li.setInfo('video', {'title': fn, 'mediatype': 'video'})
+            url = self.get_url(action='play_manual_webshare', ident=ident, filename=fn)
+            xbmcplugin.addDirectoryItem(self.handle, url, li, False)
+
+        if count == 0:
+            popinfo("No playable files in results")
+
+        xbmcplugin.endOfDirectory(self.handle)
+
+    def play_manual_webshare(self, ident, filename):
+        from lib.utils import poperror
+        try:
+            log("Manual WebShare play: " + ident + " (" + filename + ")")
+            self.stream_selector.handle = self.handle
+            success = self.stream_selector._play_stream(
+                ident, filename, tmdb_id=None, silent_fail=False
+            )
+            if success:
+                self.history.add_watched({
+                    'type': 'movie',
+                    'tmdb_id': None,
+                    'title': filename,
+                    'year': '',
+                    'poster': ''
+                })
+        except Exception as e:
+            import traceback
+            log("play_manual_webshare EXCEPTION: " + str(e))
+            log(traceback.format_exc())
+            poperror("Playback error: " + str(e)[:150])
 
     # ===== DYNAMIC SUGGESTIONS (v2 - under Watch History, fewer folders, more results) =====
 
